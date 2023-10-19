@@ -1,0 +1,9 @@
+{
+	"title": "$:/languages/hu-HU",
+	"name": "hu-HU",
+	"plugin-type": "language",
+	"description": "Magyar (Magyarország)",
+	"author": "szuzo",
+	"core-version": ">=5.0.0",
+	"plugin-priority": 110
+}

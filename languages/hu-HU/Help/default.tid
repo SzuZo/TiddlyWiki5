@@ -8,7 +8,7 @@ $:/language/Help/$(command)$
 usage: tiddlywiki [<wikifolder>] [--<command> [<args>...]...]
 ```
 
-Available commands:
+Elérhető parancsok:
 
 <ul>
 <$list filter="[commands[]sort[title]]" variable="command">
@@ -18,7 +18,7 @@ Available commands:
 </$list>
 </ul>
 
-To get detailed help on a command:
+Részletes segítség egy parancshoz:
 
 ```
 tiddlywiki --help <command>

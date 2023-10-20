@@ -3,7 +3,7 @@ title: $:/language/Docs/ModuleTypes/
 allfilteroperator: A sub-operator for the ''all'' filter operator.
 animation: Animations that may be used with the RevealWidget.
 authenticator: Defines how requests are authenticated by the built-in HTTP server.
-bitmapeditoroperation: A bitmap editor toolbar operation.
+bitmapeditoroperation: Egy bitképszerkesztő eszköztár művelet.
 command: Commands that can be executed under Node.js.
 config: Data to be inserted into `$tw.config`.
 filteroperator: Individual filter operator methods.
@@ -17,7 +17,7 @@ route: Defines how individual URL patterns are handled by the built-in HTTP serv
 saver: Savers handle different methods for saving files from the browser.
 startup: Startup functions.
 storyview: Story views customise the animation and behaviour of list widgets.
-texteditoroperation: A text editor toolbar operation.
+texteditoroperation: Egy szövegszerkesztő eszköztár művelet.
 tiddlerdeserializer: Converts different content types into tiddlers.
 tiddlerfield: Defines the behaviour of an individual tiddler field.
 tiddlermethod: Adds methods to the `$tw.Tiddler` prototype.

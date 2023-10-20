@@ -1,16 +1,16 @@
 title: $:/language/Filters/
 
-AllTiddlers: All tiddlers except system tiddlers
-RecentSystemTiddlers: Recently modified tiddlers, including system tiddlers
-RecentTiddlers: Recently modified tiddlers
-AllTags: All tags except system tags
-Missing: Missing tiddlers
-Drafts: Draft tiddlers
-Orphans: Orphan tiddlers
-SystemTiddlers: System tiddlers
-ShadowTiddlers: Shadow tiddlers
-OverriddenShadowTiddlers: Overridden shadow tiddlers
-SessionTiddlers: Tiddlers modified since the wiki was loaded
-SystemTags: System tags
-StoryList: Tiddlers in the story river, excluding <$text text="$:/AdvancedSearch"/>
-TypedTiddlers: Non wiki-text tiddlers
+AllTiddlers: Az összes tiddler kivéve a rendszer tiddlereket
+RecentSystemTiddlers: Nemrég módosított tiddlerek, beleértve a rendszer tiddlereket
+RecentTiddlers: Nemrég módosított tiddlerek
+AllTags: Az összes címke kivéve a rendszer címkék
+Missing: Hiányzó tiddlerek
+Drafts: Piszkozat tiddlerek
+Orphans: Árva tiddlerek
+SystemTiddlers: Rendszer tiddlerek
+ShadowTiddlers: Árnyék tiddlerek
+OverriddenShadowTiddlers: Felülírt árnyék tiddlerek
+SessionTiddlers: A wiki betöltése óta módosított tiddlerek
+SystemTags: Rendszer címkék
+StoryList: Tiddlerek a sztorifolyamban, kihagyva <$text text="$:/AdvancedSearch"/>
+TypedTiddlers: Nem wiki-szöveg tiddlerek

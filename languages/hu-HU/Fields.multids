@@ -7,12 +7,12 @@ caption: A fülön vagy gombon megjelenítendő szöveg
 code-body: A nézetsablon a tiddlert kódként jeleníti meg, ha ''yes''-re van állítva
 color: A tiddlerhez társított CSS-színérték
 component: A [[figyelmeztető tiddler|AlertMechanism]]-ért felelős összetevő neve
-core-version: Beépülő modul esetén jelzi, hogy a TiddlyWiki melyik verziójával kompatibilis
+core-version: Bővítmény esetén jelzi, hogy a TiddlyWiki melyik verziójával kompatibilis
 current-tiddler: Egy [[történet listában|HistoryMechanism]] a legfelső tiddler gyorsítótárazására szolgál
 created: Egy tiddler létrehozásának dátuma
 creator: Annak a személynek a neve, aki létrehozta a tiddlert
-dependents: Beépülő modulok esetén felsorolja a függő beépülő modulok címeit
-description: A beépülő modul vagy egy modális párbeszéd leíró szövege
+dependents: Bővítmények esetén felsorolja a függő bővítmények címeit
+description: A bővítmény vagy egy modális párbeszéd leíró szövege
 draft.of: Piszkozat tiddlereknél, annak a tiddlernek a címét tartalmazza, akinek ez a piszkozata
 draft.title: Piszkozat tiddlereknél, a tiddler javasolt új címét tartalmazza
 footer: A modális lábléc szövege
@@ -25,10 +25,10 @@ list-after: Ha be van állítva, annak a tiddlernek a címe, amely után ezt a t
 modified: Az a dátum és időpont, amikor a tiddlert utoljára módosították
 modifier: Az a személyhez társított tiddler cím, aki utoljára módosított egy tiddlert
 module-type: Javascript tiddlereknél, meghatározza milyen modulról van szó
-name: A beépülő modulhoz társított, ember által olvasható név
-parent-plugin: Pluginnál, megadja melyik plugin melyik al-pluginja
-plugin-priority: A plugin tiddler prioritását jelző számérték
-plugin-type: A plugin típusa egy plugin tiddlerben
+name: A bővítményhez társított, ember által olvasható név
+parent-plugin: A bővítménynél, megadja melyik bővítmény melyik al-bővítménye
+plugin-priority: A bővítmény tiddler prioritását jelző számérték
+plugin-type: A bővítmény típusa egy bővítmény tiddlerben
 revision: A szerveren tartott tiddler revíziója
 released: A TiddlyWiki kiadásának dátuma
 source: A tiddlerhez társított forrás URL
@@ -39,5 +39,5 @@ throttle.refresh: Ha van, akkor a throttles frissítik a tiddlert
 title: Egy tiddler egyedi neve
 toc-link: Elnyomja a tiddler linkjét a tartalomjegyzék-fában, ha az értéke ''no''
 type: A tiddler tartalomtípusa
-version: Egy plugin verzióinformációi
+version: Egy bővítmény verzióinformációi
 _is_skinny: Ha jelen van, azt jelzi, hogy a tiddler szövegmezőt be kell tölteni a szerverről

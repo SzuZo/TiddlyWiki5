@@ -1,7 +1,7 @@
 title: $:/language/Help/unpackplugin
 description: Kicsomagolja a hasznos tiddlereket egy bővítményből
 
-Kibontja a hasznos tiddlereket egy beépülő modulból, és létrehozza azokat közönséges tiddlerként:
+Kibontja a hasznos tiddlereket egy bővítményből, és létrehozza azokat közönséges tiddlerként:
 
 ```
 --unpackplugin <title>

@@ -74,9 +74,9 @@ Parsing/Inline/Caption: Inline Parse szabályok
 Parsing/Pragma/Caption: Pragma Parse szabályok
 Plugins/Add/Caption: Szerezzen be további bővítményeket
 Plugins/Add/Hint: Telepítse a bővítményeket a hivatalos könyvtárból
-Plugins/AlreadyInstalled/Hint: Ez a beépülő modul már telepítve van a következő a <$text text=<<installedVersion>>/> verzióban
+Plugins/AlreadyInstalled/Hint: Ez a bővítmény már telepítve van a következő a <$text text=<<installedVersion>>/> verzióban
 Plugins/AlsoRequires: Szükséges még:
-Plugins/Caption: Plugins
+Plugins/Caption: Bővítmények
 Plugins/Disable/Caption: letiltás
 Plugins/Disable/Hint: Tiltsa le ezt a bővítményt az oldal újratöltésekor
 Plugins/Disabled/Status: (letiltva)
@@ -87,22 +87,22 @@ Plugins/Enable/Hint: Engedélyezze ezt a bővítményt az oldal újratöltéseko
 Plugins/Install/Caption: telepítés
 Plugins/Installed/Hint: Jelenleg telepített bővítmények:
 Plugins/Languages/Caption: Nyelvek
-Plugins/Languages/Hint: Nyelvi csomag-bővítmények
+Plugins/Languages/Hint: Nyelvi csomag bővítmények
 Plugins/NoInfoFound/Hint: Nem található ''"<$text text=<<currentTab>>/>"''
 Plugins/NotInstalled/Hint: Ez a bővítmény jelenleg nincs telepítve
 Plugins/OpenPluginLibrary: Nyissa meg a bővítménykönyvtárat
-Plugins/ClosePluginLibrary: Bezárja a beépülő modulok könyvtárát
+Plugins/ClosePluginLibrary: Bezárja a bővítmények könyvtárát
 Plugins/PluginWillRequireReload: (újratöltés szükséges)
-Plugins/Plugins/Caption: Plugins
-Plugins/Plugins/Hint: Beépülő modulok
+Plugins/Plugins/Caption: Bővítmények
+Plugins/Plugins/Hint: Bővítmények
 Plugins/Reinstall/Caption: újratelepítés
 Plugins/Themes/Caption: Témák
 Plugins/Themes/Hint: Téma bővítmények
 Plugins/Update/Caption: frissítés
 Plugins/Updates/Caption: Frissítések
 Plugins/Updates/Hint: A telepített bővítmények elérhető frissítései
-Plugins/Updates/UpdateAll/Caption: Frissítse a <<update-count>> beépülő modult
-Plugins/SubPluginPrompt: <<count>> al-bővítménnyel
+Plugins/Updates/UpdateAll/Caption: Frissítse a <<update-count>> bővítményt
+Plugins/SubPluginPrompt: <<count>> albővítménnyel
 Saving/Caption: Mentés
 Saving/DownloadSaver/AutoSave/Description: Permit automatic saving for the download saver
 Saving/DownloadSaver/AutoSave/Hint: Enable Autosave for Download Saver

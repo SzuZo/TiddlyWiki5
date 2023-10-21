@@ -3,7 +3,7 @@ description: Összeállítja a frissítési folyamathoz szükséges könyvtárb�
 
 Összeállítja a `$:/UpgradeLibrary` tiddlert a frissítési folyamathoz.
 
-A frissítési könyvtár egy közönséges beépülő modulként van formázva, `library` bővítménytípussal. Tartalmazza a TiddlyWiki5 repository-n belül elérhető összes plugin, téma és nyelvi csomag egy példányát.
+A frissítési könyvtár egy közönséges bővítményként van formázva, `library` bővítménytípussal. Tartalmazza a TiddlyWiki5 repository-n belül elérhető összes bővítmény, téma és nyelvi csomag egy példányát.
 
 
 Ez a parancs belső használatra készült; csak az egyéni frissítési eljárást létrehozó felhasználók számára releváns.

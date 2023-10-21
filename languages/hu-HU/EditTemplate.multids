@@ -1,7 +1,7 @@
 title: $:/language/EditTemplate/
 
 Caption: Szerkesztő
-Body/External/Hint: This tiddler shows content stored outside of the main TiddlyWiki file. You can edit the tags and fields but cannot directly edit the content itself
+Body/External/Hint: Ez a tiddler a fő TiddlyWiki fájlon kívül tárolt tartalmat jeleníti meg. Szerkesztheti a címkéket és a mezőket, de magát a tartalmat nem szerkesztheti közvetlenül
 Body/Placeholder: Írja be a tiddler szövegét
 Body/Preview/Type/Output: kimenet
 Body/Preview/Type/DiffShadow: különbségek az árnyéktól (ha van)
@@ -17,8 +17,8 @@ Fields/Add/Prompt: Új mező hozzáadása:
 Fields/Add/Value/Placeholder: mező értéke
 Fields/Add/Dropdown/System: Rendszermezők
 Fields/Add/Dropdown/User: Felhasználói mezők
-Shadow/Warning: Ez egy árnyékot tiddler. Minden változtatás felülírja a <<pluginLink>> beépülő modul alapértelmezett verzióját
-Shadow/OverriddenWarning: Ez egy módosított árnyék tiddler. Visszaállíthatja az alapértelmezett verziót a <<pluginLink>> beépülő modulban, ha törli ezt a tiddlert
+Shadow/Warning: Ez egy árnyékot tiddler. Minden változtatás felülírja a <<pluginLink>> bővítmény alapértelmezett verzióját
+Shadow/OverriddenWarning: Ez egy módosított árnyék tiddler. Visszaállíthatja a <<pluginLink>> bővítményban lévő alapértelmezett verziót, ha törli ezt a tiddlert
 Tags/Add/Button: hozzáadás
 Tags/Add/Button/Hint: Címke hozzáadás
 Tags/Add/Placeholder: címke neve

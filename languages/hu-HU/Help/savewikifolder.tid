@@ -1,7 +1,7 @@
 title: $:/language/Help/savewikifolder
 description: Elment egy wikit egy új wiki mappába
 
-<<.from-version "5.1.20">> Az aktuális wikit wikimappaként menti, beleértve a tiddlereket, a beépülő modulokat és a konfigurációt:
+<<.from-version "5.1.20">> Az aktuális wikit wikimappaként menti, beleértve a tiddlereket, a bővítményeket és a konfigurációt:
 
 ```
 --savewikifolder <wikifolderpath> [<filter>] [ [<name>=<value>] ]*
@@ -9,17 +9,17 @@ description: Elment egy wikit egy új wiki mappába
 
 * A cél wiki mappának üresnek vagy nem létezőnek kell lennie
 * A szűrő határozza meg, hogy mely tiddlerek szerepeljenek benne. Ez nem kötelező, alapértelmezés szerint `[all[tiddlers]]`
-* A hivatalos beépülő modulok könyvtárából származó beépülő modulok le lesznek cserélve a `tiddlywiki.info' fájlban található hivatkozásokkal.
+* A hivatalos bővítmények könyvtárából származó bővítmények le lesznek cserélve a `tiddlywiki.info' fájlban található hivatkozásokkal.
 * Az egyéni bővítmények a saját mappájukba vannak kicsomagolva
 
 A következő opciók támogatottak:
 
 * ''filter'': egy szűrőkifejezés, amely meghatározza a kimenetbe mentendő tiddlereket.
 * ''explodePlugins'': alapértelmezés szerint "yes"
-** A ''yes'' külön tiddler fájlokba "robbanja" a beépülő modulokat, és elmenti őket a wiki mappán belüli plugin könyvtárába
-** A ''no'' elnyomja a felrobbanó beépülő modulokat az alkotó tiddler fájljaikban. A beépülő modult egyetlen JSON tiddlerként menti a tiddlerek mappába
+** A ''yes'' külön tiddler fájlokba "robbanja" a bővítményeket, és elmenti őket a wiki mappán belüli bővítmény könyvtárába
+** A ''no'' elnyomja a felrobbanó bővítményeket az alkotó tiddler fájljaikban. A bővítményt egyetlen JSON tiddlerként menti a tiddlerek mappába
 
-Ne feledje, hogy mindkét ''explodePlugins'' opció olyan wiki mappákat hoz létre, amelyek pontosan ugyanazt az eredeti wikit építik fel. A különbség abban rejlik, hogy a beépülő modulok hogyan jelennek meg a wiki mappában.
+Ne feledje, hogy mindkét ''explodePlugins'' opció olyan wiki mappákat hoz létre, amelyek pontosan ugyanazt az eredeti wikit építik fel. A különbség abban rejlik, hogy a bővítmények hogyan jelennek meg a wiki mappában.
 
 Egy általános használat egy TiddlyWiki HTML-fájl wikimappává alakítására:
 

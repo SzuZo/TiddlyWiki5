@@ -1,7 +1,7 @@
 title: $:/language/Snippets/MacroDefinition
 tags: $:/tags/TextEditor/Snippet
-caption: Macro definition
+caption: Makró definíció
 
 \define macroName(param1:"default value",param2)
-Text of the macro
+Makró szövege
 \end

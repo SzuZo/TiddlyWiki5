@@ -1,5 +1,5 @@
 title: $:/language/Snippets/ListByTag
 tags: $:/tags/TextEditor/Snippet
-caption: List of tiddlers by tag
+caption: Tiddlerek listája címke szerint
 
 <<list-links "[tag[task]sort[title]]">>

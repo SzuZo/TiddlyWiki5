@@ -3,76 +3,76 @@ title: $:/language/Docs/PaletteColours/
 alert-background: Figyelmeztetés háttér
 alert-border: Figyelmeztetés szegély
 alert-highlight: Figyelmeztetés kiemelés
-alert-muted-foreground: Figyelmeztetés elnémított előtér
-background: General háttér
-blockquote-bar: Blockquote bar
+alert-muted-foreground: Figyelmeztetés némított előtér
+background: Általános háttér
+blockquote-bar: Idézősáv
 button-background: Alapértelmezett gomb háttér
 button-border: Alapértelmezett gomb szegély
 button-foreground: Alapértelmezett gomb előtér
-dirty-indicator: Unsaved changes indicator
+dirty-indicator: Nem mentett változtatások jelzője
 code-background: Kód háttér
 code-border: Kód szegély
 code-foreground: Kód előtér
-download-background: Download gomb háttér
-download-foreground: Download gomb előtér
+download-background: Letöltés gomb háttér
+download-foreground: Letöltés gomb előtér
 dragger-background: Dragger háttér
 dragger-foreground: Dragger előtér
 dropdown-background: Dropdown háttér
 dropdown-border: Dropdown szegély
-dropdown-tab-background-selected: Dropdown tab background for selected tabs
-dropdown-tab-background: Dropdown tab háttér
+dropdown-tab-background-selected: Dropdown fül háttér kiválaszott füleknél
+dropdown-tab-background: Dropdown fül háttér
 dropzone-background: Dropzone háttér
-external-link-background-hover: External link background hover
-external-link-background-visited: External link background visited
-external-link-background: External link háttér
-external-link-foreground-hover: External link foreground hover
-external-link-foreground-visited: External link foreground visited
-external-link-foreground: External link foreground
-foreground: General előtér
+external-link-background-hover: Külső link háttér - hover
+external-link-background-visited: Külső link háttér - meglátogatott
+external-link-background: Külső link háttér 
+external-link-foreground-hover: Külső link előtér- hover
+external-link-foreground-visited: Külső link előtér - meglátogatott
+external-link-foreground: Külső link előtér
+foreground: Általános előtér
 menubar-background: Menüsáv háttér
 menubar-foreground: Menüsáv előtér
 message-background: Message box háttér
-message-border: Message box border
-message-foreground: Message box foreground
-modal-backdrop: Modal backdrop
-modal-background: Modal background
-modal-border: Modal border
-modal-footer-background: Modal footer background
-modal-footer-border: Modal footer border
-modal-header-border: Modal header border
-muted-foreground: General elnémított előtér
-notification-background: Notification háttér
-notification-border: Notification szegély
-page-background: Page háttér
-pre-background: Preformatted code háttér
-pre-border: Preformatted code szegély
-primary: General primary
+message-border: Message box szegély
+message-foreground: Message box előtér
+modal-backdrop: Modális backdrop
+modal-background: Modális háttér
+modal-border: Modális szegély
+modal-footer-background: Modális lábléc háttér
+modal-footer-border: Modális lábléc szegély
+modal-header-border: Modális fejléc szegély
+muted-foreground: Általános némított előtér
+notification-background: Értesítés háttér
+notification-border: Értesítés szegély
+page-background: Lap háttér
+pre-background: Előformázott kód háttér
+pre-border: Előformázott kód szegély
+primary: Általános primary
 select-tag-background: `<select>` element háttér
-select-tag-foreground: `<select>` element text
+select-tag-foreground: `<select>` element szöveg
 sidebar-button-foreground: Oldalsáv gomb előtér
-sidebar-controls-foreground-hover: Sidebar controls foreground hover
+sidebar-controls-foreground-hover: Oldalsáv vezérlők előtér - hover
 sidebar-controls-foreground: Oldalsáv vezérlők előtér
-sidebar-foreground-shadow: Sidebar foreground shadow
+sidebar-foreground-shadow: Oldalsáv előtér árnyék
 sidebar-foreground: Oldalsáv előtér
-sidebar-muted-foreground-hover: Sidebar muted foreground hover
-sidebar-muted-foreground: Oldalsáv elnémított előtér
-sidebar-tab-background-selected: Sidebar tab background for selected tabs
+sidebar-muted-foreground-hover: Oldalsáv némított előtér - hover
+sidebar-muted-foreground: Oldalsáv némított előtér
+sidebar-tab-background-selected: Oldalsáv fül előtér kiválaszott füleknél
 sidebar-tab-background: Oldalsáv fül háttér
-sidebar-tab-border-selected: Sidebar tab border for selected tabs
+sidebar-tab-border-selected: Oldalsáv fül szegély kiválaszott füleknél
 sidebar-tab-border: Oldalsáv fül szegély
 sidebar-tab-divider: Oldalsáv fül elválasztó
-sidebar-tab-foreground-selected: Sidebar tab foreground for selected tabs
+sidebar-tab-foreground-selected: Oldalsáv fül előtér kiválaszott füleknél
 sidebar-tab-foreground: Oldalsáv fül előtér
-sidebar-tiddler-link-foreground-hover: Sidebar tiddler link foreground hover
-sidebar-tiddler-link-foreground: Sidebar tiddler link foreground
-site-title-foreground: Site title foreground
-static-alert-foreground: Static alert foreground
-tab-background-selected: Tab background for selected tabs
+sidebar-tiddler-link-foreground-hover: Oldalsáv tiddler link előtér - hover
+sidebar-tiddler-link-foreground: Oldalsáv tiddler link előtér
+site-title-foreground: Oldal cím előtér
+static-alert-foreground: Statikus figyelmeztetés előtér
+tab-background-selected: Fül háttér kiválaszott füleknél
 tab-background: Fül háttér
-tab-border-selected: Tab border for selected tabs
+tab-border-selected: Fül szegély kiválaszott füleknél
 tab-border: Fül szegély
 tab-divider: Fül elválasztó
-tab-foreground-selected: Tab foreground for selected tabs
+tab-foreground-selected: Fül előtér kiválaszott füleknél
 tab-foreground: Fül előtér
 table-border: Táblázat szegély
 table-footer-background: Táblázat lábléc háttér
@@ -81,29 +81,29 @@ tag-background: Címke háttér
 tag-foreground: Címke előtér
 tiddler-background: Tiddler háttér
 tiddler-border: Tiddler szegély
-tiddler-controls-foreground-hover: Tiddler controls foreground hover
-tiddler-controls-foreground-selected: Tiddler controls foreground for selected controls
+tiddler-controls-foreground-hover: Tiddler vezérlők előtér - hover
+tiddler-controls-foreground-selected: Tiddler vezérlők előtér kiválasztott vezérlőknél
 tiddler-controls-foreground: Tiddler vezérlők előtér
 tiddler-editor-background: Tiddler szerkesztő háttér
-tiddler-editor-border-image: Tiddler editor border image
+tiddler-editor-border-image: Tiddler szerkesztő szegély kép
 tiddler-editor-border: Tiddler szerkesztő szegély
-tiddler-editor-fields-even: Tiddler editor background for even fields
-tiddler-editor-fields-odd: Tiddler editor background for odd fields
+tiddler-editor-fields-even: Tiddler szerkesztő háttér páros mezőknél
+tiddler-editor-fields-odd: Tiddler szerkesztő háttér páratlan mezőknél
 tiddler-info-background: Tiddler infó panel háttér
 tiddler-info-border: Tiddler infó panel szegély
-tiddler-info-tab-background: Tiddler info panel tab háttér
+tiddler-info-tab-background: Tiddler infó panel fül háttér
 tiddler-link-background: Tiddler link háttér
 tiddler-link-foreground: Tiddler link előtér
 tiddler-subtitle-foreground: Tiddler alcím előtér
 tiddler-title-foreground: Tiddler cím előtér
-toolbar-new-button: Eszközsáv 'new tiddler' gomb előtér
+toolbar-new-button: Eszközsáv 'új tiddler' gomb előtér
 toolbar-options-button: Eszközsáv 'options' gomb előtér
-toolbar-save-button: Eszközsáv 'save' gomb előtér
-toolbar-info-button: Eszközsáv 'info' gomb előtér
-toolbar-edit-button: Eszközsáv 'edit' gomb előtér
-toolbar-close-button: Eszközsáv 'close' gomb előtér
-toolbar-delete-button: Eszközsáv 'delete' gomb előtér
-toolbar-cancel-button: Eszközsáv 'cancel' gomb előtér
-toolbar-done-button: Eszközsáv 'done' gomb előtér
-untagged-background: Untagged pill background
-very-muted-foreground: Very muted foreground
+toolbar-save-button: Eszközsáv 'mentés' gomb előtér
+toolbar-info-button: Eszközsáv 'infó' gomb előtér
+toolbar-edit-button: Eszközsáv 'szerkesztés' gomb előtér
+toolbar-close-button: Eszközsáv 'bezárás' gomb előtér
+toolbar-delete-button: Eszközsáv 'törlés' gomb előtér
+toolbar-cancel-button: Eszközsáv 'mégse' gomb előtér
+toolbar-done-button: Eszközsáv 'kész' gomb előtér
+untagged-background: Címkézetlen bogyó háttér
+very-muted-foreground: Nagyon némított előtér

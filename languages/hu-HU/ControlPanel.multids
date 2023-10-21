@@ -1,116 +1,117 @@
 title: $:/language/ControlPanel/
 
-Advanced/Caption: Advanced
-Advanced/Hint: Internal information about this TiddlyWiki
-Appearance/Caption: Appearance
-Appearance/Hint: Ways to customise the appearance of your TiddlyWiki.
-Basics/AnimDuration/Prompt: Animation duration
-Basics/AutoFocus/Prompt: Default focus field for new tiddlers
-Basics/Caption: Basics
-Basics/DefaultTiddlers/BottomHint: Use &#91;&#91;double square brackets&#93;&#93; for titles with spaces. Or you can choose to {{retain story ordering||$:/snippets/retain-story-ordering-button}}
-Basics/DefaultTiddlers/Prompt: Default tiddlers
-Basics/DefaultTiddlers/TopHint: Choose which tiddlers are displayed at startup
-Basics/Language/Prompt: Hello! Current language:
-Basics/NewJournal/Title/Prompt: Title of new journal tiddlers
-Basics/NewJournal/Text/Prompt: Text for new journal tiddlers
-Basics/NewJournal/Tags/Prompt: Tags for new journal tiddlers
-Basics/NewTiddler/Title/Prompt: Title of new tiddlers
-Basics/NewTiddler/Tags/Prompt: Tags for new tiddlers
-Basics/OverriddenShadowTiddlers/Prompt: Number of overridden shadow tiddlers
-Basics/RemoveTags: Update to current format
-Basics/RemoveTags/Hint: Update the tags configuration to the latest format
-Basics/ShadowTiddlers/Prompt: Number of shadow tiddlers
-Basics/Subtitle/Prompt: Subtitle
-Basics/SystemTiddlers/Prompt: Number of system tiddlers
-Basics/Tags/Prompt: Number of tags
-Basics/Tiddlers/Prompt: Number of tiddlers
-Basics/Title/Prompt: Title of this ~TiddlyWiki
-Basics/Username/Prompt: Username for signing edits
-Basics/Version/Prompt: ~TiddlyWiki version
+Advanced/Caption: Haladó
+Advanced/Hint: Belső információ erről a TiddlyWikiről
+Appearance/Caption: Megjelenés
+Appearance/Hint: A TiddlyWiki megjelenésének testreszabási módjai.
+Basics/AnimDuration/Prompt: Animáció időtartama
+Basics/AutoFocus/Prompt: Alapértelmezett fókuszmező az új tiddlerek számára
+Basics/Caption: Alapok
+Basics/DefaultTiddlers/BottomHint: Használjon &#91;&#91;dupla szögletes zárójelet&#93;&#93; szóközökkel ellátott címeknél. Vagy dönthet úgy, hogy {{megtartja a sztori sorrendjét||$:/snippets/retain-story-ordering-button}}
+Basics/DefaultTiddlers/Prompt: Alapértelmezett tiddlerek
+Basics/DefaultTiddlers/TopHint: Válassza ki, hogy mely tiddlerek jelenjenek meg indításkor
+Basics/Language/Prompt: Hello! Aktuális nyelv:
+Basics/NewJournal/Title/Prompt: Az új napló tiddlerek címe
+Basics/NewJournal/Text/Prompt: Az új napló tiddlerek szövege
+Basics/NewJournal/Tags/Prompt: Az új napló tiddlerek címkéi
+Basics/NewTiddler/Title/Prompt: Az új tiddlerek címe
+Basics/NewTiddler/Tags/Prompt: Az új tiddlerek címkéi
+Basics/OverriddenShadowTiddlers/Prompt: Felülírt árnyék-tiddlerek száma
+Basics/RemoveTags: Frissítés az aktuális formátumra
+Basics/RemoveTags/Hint: Frissítse a címkék konfigurációját a legújabb formátumra
+Basics/ShadowTiddlers/Prompt: Árnyék-tiddlerek száma
+Basics/Subtitle/Prompt: Alcím
+Basics/SystemTiddlers/Prompt: A rendszer tiddlereinek száma
+Basics/Tags/Prompt: Címkék száma
+Basics/Tiddlers/Prompt: Tiddlerek száma
+Basics/Title/Prompt: Ennek a ~TiddlyWikinek a címe
+Basics/Username/Prompt: Felhasználónév a szerkesztések aláírásához
+Basics/Version/Prompt: ~TiddlyWiki verzió
 Cascades/Caption: Cascades
-Cascades/Hint: These global rules are used to dynamically choose certain templates. The result of the cascade is the result of the first filter in the sequence that returns a result
+Cascades/Hint: Ezek a globális szabályok bizonyos sablonok dinamikus kiválasztására szolgálnak. A kaszkád eredménye az első eredményt visszaadó szűrő eredménye a sorozatból.
 Cascades/TagPrompt: Filters tagged <$macrocall $name="tag" tag=<<currentTiddler>>/>
-EditorTypes/Caption: Editor Types
-EditorTypes/Editor/Caption: Editor
-EditorTypes/Hint: These tiddlers determine which editor is used to edit specific tiddler types.
-EditorTypes/Type/Caption: Type
-EditTemplateBody/Caption: Edit Template Body
-EditTemplateBody/Hint: This rule cascade is used by the default edit template to dynamically choose the template for editing the body of a tiddler.
-FieldEditor/Caption: Field Editor
-FieldEditor/Hint: This rules cascade is used to dynamically choose the template for rendering a tiddler field based on its name. It is used within the Edit Template.
-Info/Caption: Info
-Info/Hint: Information about this TiddlyWiki
-KeyboardShortcuts/Add/Prompt: Type shortcut here
-KeyboardShortcuts/Add/Caption: add shortcut
-KeyboardShortcuts/Caption: Keyboard Shortcuts
-KeyboardShortcuts/Hint: Manage keyboard shortcut assignments
-KeyboardShortcuts/NoShortcuts/Caption: No keyboard shortcuts assigned
-KeyboardShortcuts/Remove/Hint: remove keyboard shortcut
-KeyboardShortcuts/Platform/All: All platforms
-KeyboardShortcuts/Platform/Mac: Macintosh platform only
-KeyboardShortcuts/Platform/NonMac: Non-Macintosh platforms only
-KeyboardShortcuts/Platform/Linux: Linux platform only
-KeyboardShortcuts/Platform/NonLinux: Non-Linux platforms only
-KeyboardShortcuts/Platform/Windows: Windows platform only
-KeyboardShortcuts/Platform/NonWindows: Non-Windows platforms only
-LayoutSwitcher/Caption: Layout
-LoadedModules/Caption: Loaded Modules
-LoadedModules/Hint: These are the currently loaded tiddler modules linked to their source tiddlers. Any italicised modules lack a source tiddler, typically because they were setup during the boot process.
-Palette/Caption: Palette
-Palette/Editor/Clone/Caption: clone
-Palette/Editor/Clone/Prompt: It is recommended that you clone this shadow palette before editing it
-Palette/Editor/Delete/Hint: delete this entry from the current palette
-Palette/Editor/Names/External/Show: Show color names that are not part of the current palette
-Palette/Editor/Prompt/Modified: This shadow palette has been modified
-Palette/Editor/Prompt: Editing
-Palette/Editor/Reset/Caption: reset
-Palette/HideEditor/Caption: hide editor
-Palette/Prompt: Current palette:
-Palette/ShowEditor/Caption: show editor
+EditorTypes/Caption: Szerkesztőtípusok
+EditorTypes/Editor/Caption: Szerkesztő
+EditorTypes/Hint: Ezek a tiddlerek határozzák meg, hogy melyik szerkesztőt használják az adott tiddler-típusok szerkesztéséhez.
+EditorTypes/Type/Caption: Típus
+EditTemplateBody/Caption: Szerkesztő sablon törzs
+EditTemplateBody/Hint: Ezt a szabálykaszkádot használja az alapértelmezett szerkesztéssablon, hogy dinamikusan válassza ki a sablonta tiddler törzsének szerkesztéséhez.
+FieldEditor/Caption: Mezőszerkesztő
+FieldEditor/Hint: 
+Ez a szabálykaszkád arra szolgál, hogy dinamikusan válassza ki a sablont a tiddler-mezők neve alapján történő rendereléséhez. A szerkesztési sablonon (Edit Template) belül használatos.
+Info/Caption: Infó
+Info/Hint: Információ erről a TiddlyWikiről
+KeyboardShortcuts/Add/Prompt: Ide írja be a parancsikont
+KeyboardShortcuts/Add/Caption: parancsikon hozzáadása
+KeyboardShortcuts/Caption: Billentyűparancsok
+KeyboardShortcuts/Hint: A billentyűparancs-hozzárendelések kezelése
+KeyboardShortcuts/NoShortcuts/Caption: Nincsenek hozzárendelve billentyűparancsok
+KeyboardShortcuts/Remove/Hint: távolítsa el a billentyűparancsot
+KeyboardShortcuts/Platform/All: Minden platform
+KeyboardShortcuts/Platform/Mac: Csak Macintosh platformon
+KeyboardShortcuts/Platform/NonMac: Csak Nem-Macintosh platformokon
+KeyboardShortcuts/Platform/Linux: Csak Linux platformon
+KeyboardShortcuts/Platform/NonLinux: Csak Nem-Linux platformokon
+KeyboardShortcuts/Platform/Windows: Csak Windows platformon
+KeyboardShortcuts/Platform/NonWindows: Csak Nem-Windows platformokon
+LayoutSwitcher/Caption: Elrendezés
+LoadedModules/Caption: Betöltött modulok
+LoadedModules/Hint: Ezek a jelenleg betöltött tiddler modulok, amelyek a forrás tiddlerekhez kapcsolódnak. A dőlt betűs modulok nem tartalmaznak forrás tiddlert, általában azért, mert a rendszerindítási folyamat során lettek beállítva.
+Palette/Caption: Paletta
+Palette/Editor/Clone/Caption: klónozás
+Palette/Editor/Clone/Prompt: Javasoljuk, hogy klónozza ezt az árnyékpalettát szerkesztés előtt.
+Palette/Editor/Delete/Hint: törölje ezt a bejegyzést az aktuális palettáról
+Palette/Editor/Names/External/Show: Jelenítse meg az olyan színneveket, amelyek nem részei az aktuális palettának
+Palette/Editor/Prompt/Modified: Ez az árnyékpaletta módosult
+Palette/Editor/Prompt: Szerkesztés
+Palette/Editor/Reset/Caption: visszaállítás
+Palette/HideEditor/Caption: szerkesztő elrejtése
+Palette/Prompt: Aktuális paletta:
+Palette/ShowEditor/Caption: szerkesztő megjelenítése
 Parsing/Caption: Parsing
-Parsing/Hint: Here you can globally disable/enable wiki parser rules. For changes to take effect, save and reload your wiki. Disabling certain parser rules can prevent <$text text="TiddlyWiki"/> from functioning correctly. Use [[safe mode|https://tiddlywiki.com/#SafeMode]] to restore normal operation.
-Parsing/Block/Caption: Block Parse Rules
-Parsing/Inline/Caption: Inline Parse Rules
-Parsing/Pragma/Caption: Pragma Parse Rules
-Plugins/Add/Caption: Get more plugins
-Plugins/Add/Hint: Install plugins from the official library
-Plugins/AlreadyInstalled/Hint: This plugin is already installed at version <$text text=<<installedVersion>>/>
-Plugins/AlsoRequires: Also requires:
+Parsing/Hint: Itt globálisan letilthatja/engedélyezheti a wiki parser szabályokat. A módosítások életbe léptetéséhez mentse el és töltse be újra a wikit. Bizonyos parser szabályok letiltása megakadályozhatja a <$text text="TiddlyWiki"/> megfelelő működését. A normál működés visszaállításához használja a [[csökkentett mód|https://tiddlywiki.com/#SafeMode]] funkciót.
+Parsing/Block/Caption: Block Parse szabályok
+Parsing/Inline/Caption: Inline Parse szabályok
+Parsing/Pragma/Caption: Pragma Parse szabályok
+Plugins/Add/Caption: Szerezzen be további bővítményeket
+Plugins/Add/Hint: Telepítse a bővítményeket a hivatalos könyvtárból
+Plugins/AlreadyInstalled/Hint: Ez a beépülő modul már telepítve van a következő a <$text text=<<installedVersion>>/> verzióban
+Plugins/AlsoRequires: Szükséges még:
 Plugins/Caption: Plugins
-Plugins/Disable/Caption: disable
-Plugins/Disable/Hint: Disable this plugin when reloading page
-Plugins/Disabled/Status: (disabled)
+Plugins/Disable/Caption: letiltás
+Plugins/Disable/Hint: Tiltsa le ezt a bővítményt az oldal újratöltésekor
+Plugins/Disabled/Status: (letiltva)
 Plugins/Downgrade/Caption: downgrade
-Plugins/Empty/Hint: None
-Plugins/Enable/Caption: enable
-Plugins/Enable/Hint: Enable this plugin when reloading page
-Plugins/Install/Caption: install
-Plugins/Installed/Hint: Currently installed plugins:
-Plugins/Languages/Caption: Languages
-Plugins/Languages/Hint: Language pack plugins
-Plugins/NoInfoFound/Hint: No ''"<$text text=<<currentTab>>/>"'' found
-Plugins/NotInstalled/Hint: This plugin is not currently installed
-Plugins/OpenPluginLibrary: Open plugin library
-Plugins/ClosePluginLibrary: Close plugin library
-Plugins/PluginWillRequireReload: (requires reload)
+Plugins/Empty/Hint: Nincs
+Plugins/Enable/Caption: engedélyezés
+Plugins/Enable/Hint: Engedélyezze ezt a bővítményt az oldal újratöltésekor
+Plugins/Install/Caption: telepítés
+Plugins/Installed/Hint: Jelenleg telepített bővítmények:
+Plugins/Languages/Caption: Nyelvek
+Plugins/Languages/Hint: Nyelvi csomag-bővítmények
+Plugins/NoInfoFound/Hint: Nem található ''"<$text text=<<currentTab>>/>"''
+Plugins/NotInstalled/Hint: Ez a bővítmény jelenleg nincs telepítve
+Plugins/OpenPluginLibrary: Nyissa meg a bővítménykönyvtárat
+Plugins/ClosePluginLibrary: Bezárja a beépülő modulok könyvtárát
+Plugins/PluginWillRequireReload: (újratöltés szükséges)
 Plugins/Plugins/Caption: Plugins
-Plugins/Plugins/Hint: Plugins
-Plugins/Reinstall/Caption: reinstall
-Plugins/Themes/Caption: Themes
-Plugins/Themes/Hint: Theme plugins
-Plugins/Update/Caption: update
-Plugins/Updates/Caption: Updates
-Plugins/Updates/Hint: Available updates to installed plugins
-Plugins/Updates/UpdateAll/Caption: Update <<update-count>> plugins
-Plugins/SubPluginPrompt: With <<count>> sub-plugins available
-Saving/Caption: Saving
+Plugins/Plugins/Hint: Beépülő modulok
+Plugins/Reinstall/Caption: újratelepítés
+Plugins/Themes/Caption: Témák
+Plugins/Themes/Hint: Téma bővítmények
+Plugins/Update/Caption: frissítés
+Plugins/Updates/Caption: Frissítések
+Plugins/Updates/Hint: A telepített bővítmények elérhető frissítései
+Plugins/Updates/UpdateAll/Caption: Frissítse a <<update-count>> beépülő modult
+Plugins/SubPluginPrompt: <<count>> al-bővítménnyel
+Saving/Caption: Mentés
 Saving/DownloadSaver/AutoSave/Description: Permit automatic saving for the download saver
 Saving/DownloadSaver/AutoSave/Hint: Enable Autosave for Download Saver
 Saving/DownloadSaver/Caption: Download Saver
 Saving/DownloadSaver/Hint: These settings apply to the HTML5-compatible download saver
-Saving/General/Caption: General
-Saving/General/Hint: These settings apply to all the loaded savers
-Saving/Hint: Settings used for saving the entire TiddlyWiki as a single file via a saver module
+Saving/General/Caption: Általános
+Saving/General/Hint: Ezek a beállítások az összes betöltött mentőre vonatkoznak
+Saving/Hint: Beállítások a teljes TiddlyWiki egyetlen fájlként mentéséhez egy mentőmodulon keresztül
 Saving/GitService/Branch: Target branch for saving
 Saving/GitService/CommitMessage: Saved by TiddlyWiki
 Saving/GitService/Description: These settings are only used when saving to <<service-name>>
@@ -139,93 +140,93 @@ Saving/TiddlySpot/ReadOnly: Note that [[TiddlySpot|http://tiddlyspot.com]] no lo
 Saving/TiddlySpot/ServerURL: Server URL
 Saving/TiddlySpot/UploadDir: Upload Directory
 Saving/TiddlySpot/UserName: Wiki Name
-Settings/AutoSave/Caption: Autosave
-Settings/AutoSave/Disabled/Description: Do not save changes automatically
-Settings/AutoSave/Enabled/Description: Save changes automatically
-Settings/AutoSave/Hint: Attempt to automatically save changes during editing when using a supporting saver
-Settings/CamelCase/Caption: Camel Case Wiki Links
-Settings/CamelCase/Hint: You can globally disable automatic linking of ~CamelCase phrases. Requires reload to take effect
-Settings/CamelCase/Description: Enable automatic ~CamelCase linking
-Settings/Caption: Settings
-Settings/EditorToolbar/Caption: Editor Toolbar
-Settings/EditorToolbar/Hint: Enable or disable the editor toolbar:
-Settings/EditorToolbar/Description: Show editor toolbar
-Settings/InfoPanelMode/Caption: Tiddler Info Panel Mode
-Settings/InfoPanelMode/Hint: Control when the tiddler info panel closes:
-Settings/InfoPanelMode/Popup/Description: Tiddler info panel closes automatically
-Settings/InfoPanelMode/Sticky/Description: Tiddler info panel stays open until explicitly closed
-Settings/Hint: These settings let you customise the behaviour of TiddlyWiki.
-Settings/NavigationAddressBar/Caption: Navigation Address Bar
-Settings/NavigationAddressBar/Hint: Behaviour of the browser address bar when navigating to a tiddler:
-Settings/NavigationAddressBar/No/Description: Do not update the address bar
-Settings/NavigationAddressBar/Permalink/Description: Include the target tiddler
-Settings/NavigationAddressBar/Permaview/Description: Include the target tiddler and the current story sequence
-Settings/NavigationHistory/Caption: Navigation History
-Settings/NavigationHistory/Hint: Update browser history when navigating to a tiddler:
-Settings/NavigationHistory/No/Description: Do not update history
-Settings/NavigationHistory/Yes/Description: Update history
-Settings/NavigationPermalinkviewMode/Caption: Permalink/permaview Mode
-Settings/NavigationPermalinkviewMode/Hint: Choose how permalink/permaview is handled:
-Settings/NavigationPermalinkviewMode/CopyToClipboard/Description: Copy permalink/permaview URL to clipboard
-Settings/NavigationPermalinkviewMode/UpdateAddressBar/Description: Update address bar with permalink/permaview URL
-Settings/PerformanceInstrumentation/Caption: Performance Instrumentation
-Settings/PerformanceInstrumentation/Hint: Displays performance statistics in the browser developer console. Requires reload to take effect
-Settings/PerformanceInstrumentation/Description: Enable performance instrumentation
-Settings/ToolbarButtonStyle/Caption: Toolbar Button Style
-Settings/ToolbarButtonStyle/Hint: Choose the style for toolbar buttons:
-Settings/ToolbarButtonStyle/Styles/Borderless: Borderless
-Settings/ToolbarButtonStyle/Styles/Boxed: Boxed
-Settings/ToolbarButtonStyle/Styles/Rounded: Rounded
-Settings/ToolbarButtons/Caption: Toolbar Buttons
-Settings/ToolbarButtons/Hint: Default toolbar button appearance:
-Settings/ToolbarButtons/Icons/Description: Include icon
-Settings/ToolbarButtons/Text/Description: Include text
-Settings/DefaultSidebarTab/Caption: Default Sidebar Tab
-Settings/DefaultSidebarTab/Hint: Specify which sidebar tab is displayed by default
-Settings/DefaultMoreSidebarTab/Caption: Default More Sidebar Tab
-Settings/DefaultMoreSidebarTab/Hint: Specify which More sidebar tab is displayed by default
-Settings/LinkToBehaviour/Caption: Tiddler Opening Behaviour
+Settings/AutoSave/Caption: Automatikus mentés
+Settings/AutoSave/Disabled/Description: Ne mentse el automatikusan a változtatásokat
+Settings/AutoSave/Enabled/Description: A változtatások automatikus mentése
+Settings/AutoSave/Hint: Próbálja a változtatások automatikus mentésére szerkesztés közben, ha ezt a funkciót támogató mentőt használ
+Settings/CamelCase/Caption: Camel Case Wiki Linkek
+Settings/CamelCase/Hint: Globálisan letilthatja a ~CamelCase kifejezések automatikus összekapcsolását. Újratöltés szükséges az életbe lépéshez
+Settings/CamelCase/Description: Engedélyezze az automatikus ~CamelCase összekapcsolást
+Settings/Caption: Beállítások
+Settings/EditorToolbar/Caption: Szerkesztő eszköztár
+Settings/EditorToolbar/Hint: A szerkesztő eszköztár engedélyezése vagy letiltása:
+Settings/EditorToolbar/Description: Megjeleníti a szerkesztő eszköztárat
+Settings/InfoPanelMode/Caption: Tiddler Info Panel Mód
+Settings/InfoPanelMode/Hint: Szabályozza, hogy mikor zárjon be a tiddler információs panel:
+Settings/InfoPanelMode/Popup/Description: A Tiddler információs panel automatikusan bezárul
+Settings/InfoPanelMode/Sticky/Description: A Tiddler információs panel nyitva marad, amíg kifejezetten be nem zárják
+Settings/Hint: Ezekkel a beállításokkal testreszabhatja a TiddlyWiki viselkedését.
+Settings/NavigationAddressBar/Caption: Navigációs címsor
+Settings/NavigationAddressBar/Hint: A böngésző címsorának viselkedése, amikor egy tiddlerhez navigál:
+Settings/NavigationAddressBar/No/Description: Ne frissítse a címsávot
+Settings/NavigationAddressBar/Permalink/Description: Tartalmazza a cél tiddlert
+Settings/NavigationAddressBar/Permaview/Description: Tartalmazza a cél tiddlert és az aktuális sztorisorozatot
+Settings/NavigationHistory/Caption: Navigációs előzmények
+Settings/NavigationHistory/Hint: Frissítse a böngészési előzményeket, amikor egy tiddlerhez navigál:
+Settings/NavigationHistory/No/Description: Ne frissítse az előzményeket
+Settings/NavigationHistory/Yes/Description: Frissítse az előzményeket
+Settings/NavigationPermalinkviewMode/Caption: Tartóslink/tartósnézet mód
+Settings/NavigationPermalinkviewMode/Hint: Válassza ki, hogyan legyen kezelve a tartóslink/tartósnézet:
+Settings/NavigationPermalinkviewMode/CopyToClipboard/Description: Másolja a tartóslink/tartósnézet URL-t a vágólapra
+Settings/NavigationPermalinkviewMode/UpdateAddressBar/Description: Frissítse a címsort tartóslink/tartósnézet URL-lel
+Settings/PerformanceInstrumentation/Caption: Teljesítményműszerezés
+Settings/PerformanceInstrumentation/Hint: Megjelenít egy teljesítménystatisztikát a böngésző fejlesztői konzoljában. Újratöltés szükséges az életbe lépéshez
+Settings/PerformanceInstrumentation/Description: A teljesítményműszerezés engedélyezése
+Settings/ToolbarButtonStyle/Caption: Eszköztár gombstílus
+Settings/ToolbarButtonStyle/Hint: Válassza ki az eszköztár gombjainak stílusát:
+Settings/ToolbarButtonStyle/Styles/Borderless: Keret nélküli
+Settings/ToolbarButtonStyle/Styles/Boxed: Dobozos
+Settings/ToolbarButtonStyle/Styles/Rounded: Lekerekített
+Settings/ToolbarButtons/Caption: Eszköztár gombjai
+Settings/ToolbarButtons/Hint: Az eszköztár gombjainak alapértelmezett megjelenése:
+Settings/ToolbarButtons/Icons/Description: Tartalmazza az ikont
+Settings/ToolbarButtons/Text/Description: Tartalmazza a szöveget
+Settings/DefaultSidebarTab/Caption: Alapértelmezett oldalsáv fül
+Settings/DefaultSidebarTab/Hint: Adja meg, hogy alapértelmezés szerint melyik oldalsáv fül legyen megjelenítve
+Settings/DefaultMoreSidebarTab/Caption: Alapértelmezett További oldalsáv fül
+Settings/DefaultMoreSidebarTab/Hint: Adja meg, hogy alapértelmezés szerint melyik További oldalsáv lap jelenjen meg
+Settings/LinkToBehaviour/Caption: Tiddler nyitási viselkedése
 Settings/LinkToBehaviour/InsideRiver/Hint: Navigation from //within// the story river
 Settings/LinkToBehaviour/OutsideRiver/Hint: Navigation from //outside// the story river
-Settings/LinkToBehaviour/OpenAbove: Open above the current tiddler
-Settings/LinkToBehaviour/OpenBelow: Open below the current tiddler
-Settings/LinkToBehaviour/OpenAtTop: Open at the top of the story river
-Settings/LinkToBehaviour/OpenAtBottom: Open at the bottom of the story river
-Settings/TitleLinks/Caption: Tiddler Titles
-Settings/TitleLinks/Hint: Optionally display tiddler titles as links
-Settings/TitleLinks/No/Description: Do not display tiddler titles as links
-Settings/TitleLinks/Yes/Description: Display tiddler titles as links
-Settings/MissingLinks/Caption: Wiki Links
-Settings/MissingLinks/Hint: Choose whether to link to tiddlers that do not exist yet
-Settings/MissingLinks/Description: Enable links to missing tiddlers
-StoryTiddler/Caption: Story Tiddler
-StoryTiddler/Hint: This rule cascade is used to dynamically choose the template for displaying a tiddler in the story river.
-StoryView/Caption: Story View
-StoryView/Prompt: Current view:
-Stylesheets/Caption: Stylesheets
-Stylesheets/Expand/Caption: Expand All
-Stylesheets/Hint: This is the rendered CSS of the current stylesheet tiddlers tagged with <<tag "$:/tags/Stylesheet">>
-Stylesheets/Restore/Caption: Restore
-Theme/Caption: Theme
-Theme/Prompt: Current theme:
-TiddlerFields/Caption: Tiddler Fields
-TiddlerFields/Hint: This is the full set of TiddlerFields in use in this wiki (including system tiddlers but excluding shadow tiddlers).
-TiddlerColour/Caption: Tiddler Colour
-TiddlerColour/Hint: This rules cascade is used to dynamically choose the colour for a tiddler (used for the icon and the associated tag pill).
-TiddlerIcon/Caption: Tiddler Icon
-TiddlerIcon/Hint: This rules cascade is used to dynamically choose the icon for a tiddler.
-Toolbars/Caption: Toolbars
-Toolbars/EditToolbar/Caption: Edit Toolbar
-Toolbars/EditToolbar/Hint: Choose which buttons are displayed for tiddlers in edit mode. Drag and drop to change the ordering
-Toolbars/Hint: Select which toolbar buttons are displayed
-Toolbars/PageControls/Caption: Page Toolbar
-Toolbars/PageControls/Hint: Choose which buttons are displayed on the main page toolbar. Drag and drop to change the ordering
-Toolbars/EditorToolbar/Caption: Editor Toolbar
-Toolbars/EditorToolbar/Hint: Choose which buttons are displayed in the editor toolbar. Note that some buttons will only appear when editing tiddlers of a certain type. Drag and drop to change the ordering
-Toolbars/ViewToolbar/Caption: View Toolbar
-Toolbars/ViewToolbar/Hint: Choose which buttons are displayed for tiddlers in view mode. Drag and drop to change the ordering
-Tools/Download/Full/Caption: Download full wiki
-ViewTemplateBody/Caption: View Template Body
-ViewTemplateBody/Hint: This rule cascade is used by the default view template to dynamically choose the template for displaying the body of a tiddler.
-ViewTemplateTitle/Caption: View Template Title
-ViewTemplateTitle/Hint: This rule cascade is used by the default view template to dynamically choose the template for displaying the title of a tiddler.
+Settings/LinkToBehaviour/OpenAbove: Megnyitás az aktuális tiddler fölött
+Settings/LinkToBehaviour/OpenBelow: Megnyitás az aktuális tiddler alatt
+Settings/LinkToBehaviour/OpenAtTop: Nyissa meg a sztorifolyam tetején
+Settings/LinkToBehaviour/OpenAtBottom: Nyissa meg a sztorifolyam alján
+Settings/TitleLinks/Caption: Tiddler címek
+Settings/TitleLinks/Hint: Opcionálisan megjelenítheti a tiddler címeit hivatkozásként
+Settings/TitleLinks/No/Description: Ne jelenítse meg a tiddler címeket linkként
+Settings/TitleLinks/Yes/Description: Jelenítse meg a tiddler címeket linkként
+Settings/MissingLinks/Caption: Wiki Linkek
+Settings/MissingLinks/Hint: Válassza ki, hogy szeretne-e linkelni még nem létező tiddlereket
+Settings/MissingLinks/Description: Engedélyezze a hiányzó tiddlerekre mutató linkeket
+StoryTiddler/Caption: Sztori tiddler
+StoryTiddler/Hint: Ez a szabálykaszkád arra szolgál, hogy dinamikusan kiválassza a sablont, amivel megjeleníti a tiddlert a történetfolyamban.
+StoryView/Caption: Sztorinézet
+StoryView/Prompt: Jelenlegi nézet:
+Stylesheets/Caption: Stíluslapok
+Stylesheets/Expand/Caption: Összes kibontása
+Stylesheets/Hint: Ez az aktuális stíluslap-tiddlerek a CSS-el renderelődtek, amelyek a <<tag "$:/tags/Stylesheet">> -vel vannak címkézve.
+Stylesheets/Restore/Caption: Visszaállítás
+Theme/Caption: Téma
+Theme/Prompt: Jelenlegi téma:
+TiddlerFields/Caption: Tiddler mezők
+TiddlerFields/Hint: Ez a wikiben használt TiddlerFields teljes készlete (beleértve a rendszer tiddlereket, de az árnyé tiddlereket nem).
+TiddlerColour/Caption: Tiddler szín
+TiddlerColour/Hint: Ez a kaszkádszabály arra szolgál, hogy dinamikusan kiválassza a tiddler színét (az ikonhoz és a kapcsolódó címketablettákhoz).
+TiddlerIcon/Caption: Tiddler ikon
+TiddlerIcon/Hint: Ezek a kaszkádszabályok arra szolgálnak, hogy dinamikusan kiválassza a tiddler ikonját.
+Toolbars/Caption: Eszköztárak
+Toolbars/EditToolbar/Caption: Szerkesztés eszköztár
+Toolbars/EditToolbar/Hint: Válassza ki, hogy mely gombok jelenjenek meg a tiddlerek számára szerkesztési módban. Fogd-és-dobd módszerrel módosíthatja a sorrendet
+Toolbars/Hint: Válassza ki, hogy mely eszköztár gombjai jelenjenek meg
+Toolbars/PageControls/Caption: Oldal eszköztár
+Toolbars/PageControls/Hint: Válassza ki, hogy mely gombok jelenjenek meg a főoldal eszköztárán. Fogd-és-dobd módszerrel módosíthatja a sorrendet
+Toolbars/EditorToolbar/Caption: Szerkesztő eszköztár
+Toolbars/EditorToolbar/Hint: Válassza ki, hogy mely gombok jelenjenek meg a szerkesztő eszköztárában. Ne feledje, hogy egyes gombok csak akkor jelennek meg, ha egy bizonyos típusú tiddlert szerkeszt. Fogd-és-dobd módszerrel módosíthatja a sorrendet
+Toolbars/ViewToolbar/Caption: Nézet eszköztár
+Toolbars/ViewToolbar/Hint: Válassza ki, hogy nézet módban mely gombok jelenjenek meg a tiddlerek számára. Fogd-és-dobd módszerrel módosíthatja a sorrendet
+Tools/Download/Full/Caption: Teljes wiki letöltése
+ViewTemplateBody/Caption: Nézet sablon törzse
+ViewTemplateBody/Hint: Ezt a szabálykaszkádot használja az alapértelmezett nézetsablon, hogy dinamikusan válassza ki a sablont a tiddler törzsének megjelenítéséhez.
+ViewTemplateTitle/Caption: Nézet sablon címe
+ViewTemplateTitle/Hint: Ezt a szabálykaszkádot használja az alapértelmezett nézetsablon, hogy dinamikusan válassza ki a sablont a tiddler címének megjelenítéséhez.

@@ -1,23 +1,23 @@
 title: $:/language/Help/rendertiddler
-description: Render an individual tiddler as a specified ContentType
+description: Renderel egy egyedi tiddlert egy meghatározott ContentType-ként
 
-(Note: The `--rendertiddler` command is deprecated in favour of the new, more flexible `--render` command)
+(Megjegyzés: A `--rendertiddler` parancs elavult, az új, rugalmasabb `--render` parancs van helyette)
 
-Render an individual tiddler as a specified ContentType, defaulting to `text/html` and save it to the specified filename.
+Renderel egy egyedi tiddlert meghatározott ContentType-ként, alapértelmezés szerint `text/html`, és elmenti a megadott fájlnévre.
 
-Optionally the title of a template tiddler can be specified, in which case the template tiddler is rendered with the "currentTiddler" variable set to the tiddler that is being rendered (the first parameter value).
+Opcionálisan megadható egy sablon tiddler címe, ebben az esetben a sablon tiddler a "currentTiddler" változóval a renderelés alatt álló tiddlerre van állítva (az első paraméterérték).
 
-A name and value for an additional variable may optionally also be specified.
+Opcionálisan megadható egy további változó neve és értéke is.
 
 ```
 --rendertiddler <title> <filename> [<type>] [<template>] [<name>] [<value>]
 ```
 
-By default, the filename is resolved relative to the `output` subdirectory of the edition directory. The `--output` command can be used to direct output to a different directory.
+Alapértelmezés szerint a fájlnév feloldása a kiadási könyvtár `output` alkönyvtárához viszonyítva történik. A `--output` paranccsal a kimenet egy másik könyvtárba irányítható.
 
-Any missing directories in the path to the filename are automatically created.
+A fájlnév elérési útjából hiányzó könyvtárak automatikusan létrejönnek.
 
-For example, the following command saves all tiddlers matching the filter `[tag[done]]` to a JSON file titled `output.json` by employing the core template `$:/core/templates/exporters/JsonFile`.
+Például a következő parancs a `[tag[done]]` szűrőnek megfelelő összes tiddlert egy `output.json` nevű JSON-fájlba menti a `$:/core/templates/exporters/JsonFile` alapsablon használatával.
 
 ```
 --rendertiddler "$:/core/templates/exporters/JsonFile" output.json text/plain "" exportFilter "[tag[done]]"

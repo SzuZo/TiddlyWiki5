@@ -1,7 +1,7 @@
 title: $:/language/Help/unpackplugin
-description: Unpack the payload tiddlers from a plugin
+description: Kicsomagolja a hasznos tiddlereket egy bővítményből
 
-Extract the payload tiddlers from a plugin, creating them as ordinary tiddlers:
+Kibontja a hasznos tiddlereket egy beépülő modulból, és létrehozza azokat közönséges tiddlerként:
 
 ```
 --unpackplugin <title>

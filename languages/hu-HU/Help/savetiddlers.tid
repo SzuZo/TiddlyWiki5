@@ -1,16 +1,16 @@
 title: $:/language/Help/savetiddlers
-description: Saves a group of raw tiddlers to a directory
+description: Menti egy nyers tidderek csoportját egy mappába
 
-(Note: The `--savetiddlers` command is deprecated in favour of the new, more flexible `--save` command)
+(Megjegyzés: A `--savetiddlers` parancs elavult, az új, rugalmasabb `--save` parancs van helyette)
 
-Saves a group of tiddlers in their raw text or binary format to the specified directory.
+A tiddlerek egy csoportját nyers szövegben vagy bináris formátumban menti a megadott könyvtárba.
 
 ```
 --savetiddlers <filter> <pathname> ["noclean"]
 ```
 
-By default, the pathname is resolved relative to the `output` subdirectory of the edition directory. The `--output` command can be used to direct output to a different directory.
+Alapértelmezés szerint az elérési út a kiadási könyvtár `output` alkönyvtárához viszonyítva van feloldva. A `--output` paranccsal a kimenet egy másik könyvtárba irányítható.
 
-The output directory is cleared of existing files before saving the specified files. The deletion can be disabled by specifying the ''noclean'' flag.
+A megadott fájlok mentése előtt a kimeneti könyvtár törli a meglévő fájlokat. A törlés letiltható a ''noclean'' jelző megadásával.
 
-Any missing directories in the pathname are automatically created.
+Az elérési útban található hiányzó könyvtárak automatikusan létrejönnek.

@@ -1,25 +1,26 @@
 title: $:/language/Help/save
-description: Saves individual raw tiddlers to files
+description: Fájlokba menti az egyes nyers tiddlereket
 
-Saves individual tiddlers identified by a filter in their raw text or binary format to the specified files.
+A szűrő által azonosított egyedi tiddlereket nyers szövegben vagy bináris formátumban menti a megadott fájlokhoz.
 
 ```
 --save <tiddler-filter> <filename-filter>
 ```
 
-* ''tiddler-filter'': A filter identifying the tiddler(s) to be saved
-* ''filename-filter'': Optional filter transforming tiddler titles into pathnames. If omitted, defaults to `[is[tiddler]]`, which uses the unchanged tiddler title as the filename
+* ''tiddler-filter'': egy szűrő, amely azonosítja a mentendő tiddler(eke)t
+* ''filename-filter'': Opcionális szűrő, amely a tiddler címeket elérési útnevekké alakítja. Ha kihagyja, akkor az alapértelmezett `[is[tiddler]]`, amely a változatlan tiddler címet használja fájlnévként
 
-By default, the filename is resolved relative to the `output` subdirectory of the edition directory. The `--output` command can be used to direct output to a different directory.
+Alapértelmezés szerint a fájlnév feloldása a kiadási könyvtár `output` alkönyvtárához viszonyítva történik. A `--output` paranccsal a kimenet egy másik könyvtárba irányítható.
 
-Notes:
+Megjegyzések:
 
-* The output directory is not cleared of any existing files
-* Any missing directories in the path to the filename are automatically created.
-* When saving a tiddler with spaces in its title, take care to use both the quotes required by your shell and also TiddlyWiki's double square brackets: `--save "[[Motovun Jack.jpg]]"`
-* The filename filter is evaluated with the selected items being set to the title of the tiddler currently being saved, allowing the title to be used as the basis for computing the filename. For example `[encodeuricomponent[]addprefix[static/]]` applies URI encoding to each title, and then adds the prefix `static/`
-* The `--save` command is a more flexible replacement for both the `--savetiddler` and `--savetiddlers` commands, which are deprecated
+* A kimeneti könyvtárból nem lesz törölve semmilyen meglévő fájl
+* A fájlnév elérési útjában található hiányzó könyvtárak automatikusan létrejönnek.
+* Amikor ment egy tiddlert szóközökkel a címében, ügyeljen arra, hogy mind a shell által megkívánt idézőjeleket, mind a TiddlyWiki dupla szögletes zárójeleit használja: `--save "[[Motovun Jack.jpg]]"`
+* A fájlnévszűrőt úgy értékeli ki a rendszer, hogy a kiválasztott elemeket az éppen mentett tiddler címére állítja be, lehetővé téve, hogy a címet használják a fájlnév kiszámításához. Például az `[encodeuricomponent[]addprefix[static/]]` URI-kódolást alkalmaz minden címhez, majd hozzáadja a `static/` előtagot.
+* A `--save` parancs rugalmasabb helyettesíti mind a `--savetiddler`, mind a `--savetiddlers` parancsot, amelyek elavultak.
 
-Examples:
+Példák:
 
-* `--save "[!is[system]is[image]]" "[encodeuricomponent[]addprefix[tiddlers/]]"` -- saves all non-system image tiddlers as files in the subdirectory "tiddlers" with URL-encoded titles
+* `--save "[!is[system]is[image]]" "[encodeuricomponent[]addprefix[tiddlers/]]"` -- minden nem-rendszer tiddlert fájlként ment a "tiddlers" alkönyvtárba URL-kódolt címekkel
+

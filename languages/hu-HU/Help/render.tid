@@ -1,35 +1,37 @@
 title: $:/language/Help/render
-description: Renders individual tiddlers to files
+description: Lerendereli az egyes tiddlereket fájlokba
 
-Render individual tiddlers identified by a filter and save the results to the specified files.
+Lerendereli a szűrő által azonosított egyedi tiddlereket, és menti az eredményeket a megadott fájlokba.
 
-Optionally, the title of a template tiddler can be specified. In this case, instead of directly rendering each tiddler, the template tiddler is rendered with the "currentTiddler" variable set to the title of the tiddler that is being rendered.
+Opcionálisan megadható egy sablon tiddler címe. Ebben az esetben ahelyett, hogy minden egyes tiddlert közvetlenül renderelnénk, a sablon tiddler lesz renderelve a "currentTiddler" változóval, ami a renderelés alatt álló tiddler címére van állítva.
 
-A name and value for an additional variable may optionally also be specified.
+Opcionálisan megadható egy további változó neve és értéke is.
 
 ```
 --render <tiddler-filter> [<filename-filter>] [<render-type>] [<template>] [ [<name>] [<value>] ]*
 ```
 
-* ''tiddler-filter'': A filter identifying the tiddler(s) to be rendered
-* ''filename-filter'': Optional filter transforming tiddler titles into pathnames. If omitted, defaults to `[is[tiddler]addsuffix[.html]]`, which uses the unchanged tiddler title as the filename
-* ''render-type'': Optional render type: `text/html` (the default) returns the full HTML text and `text/plain` just returns the text content (ie it ignores HTML tags and other unprintable material)
-* ''template'': Optional template through which each tiddler is rendered
-* ''name'': Name of optional variables
-* ''value'': Value of optional variables
+* ''tiddler-filter'': egy szűrő, amely azonosítja a rendereléshez a tiddler(ek)et
+* ''filename-filter'': Opcionális szűrő, amely a tiddler címeket elérési útnevekké alakítja. Ha kihagyja, akkor az alapértelmezett `[is[tiddler]addsuffix[.html]]`, amely a változatlan tiddler címet használja fájlnévként
+* ''render-type'': Opcionális renderelési típus: a `text/html` (alapértelmezett) a teljes HTML-szöveget adja vissza, a `text/plain` pedig csak a szöveges tartalmat adja vissza (azaz figyelmen kívül hagyja a HTML-címkéket és más nem nyomtatható anyagokat)
+* ''template'': Opcionális sablon, amelyen keresztül minden tiddler renderelődik
+* ''name'': az opcionális változók neve
+* ''value'': az opcionális változók értéke
 
-By default, the filename is resolved relative to the `output` subdirectory of the edition directory. The `--output` command can be used to direct output to a different directory.
+Alapértelmezés szerint a fájlnév feloldása a kiadási könyvtár `output` alkönyvtárához viszonyítva történik. A `--output` paranccsal a kimenet egy másik könyvtárba irányítható.
 
-Notes:
+Megjegyzések:
 
-* The output directory is not cleared of any existing files
-* Any missing directories in the path to the filename are automatically created.
-* When referring to a tiddler with spaces in its title, take care to use both the quotes required by your shell and also TiddlyWiki's double square brackets: `--render "[[Motovun Jack.jpg]]"`
-* The filename filter is evaluated with the selected items being set to the title of the tiddler currently being rendered, allowing the title to be used as the basis for computing the filename. For example `[encodeuricomponent[]addprefix[static/]]` applies URI encoding to each title, and then adds the prefix `static/`
-* Multiple ''name''/''value'' pairs can be used to pass more than one variable
-* The `--render` command is a more flexible replacement for both the `--rendertiddler` and `--rendertiddlers` commands, which are deprecated
+* A kimeneti könyvtárból nem lesz törölve semmilyen meglévő fájl
+* A fájlnév elérési útjában található hiányzó könyvtárak automatikusan létrejönnek.
+* Ha olyan tiddlerre hivatkozik, amelynek címében szóköz van, ügyeljen arra, hogy mind a shell által megkövetelt idézőjeleket, mind a TiddlyWiki dupla szögletes zárójeleit használja: `--render "[[Motovun Jack.jpg]]"`
+* A fájlnévszűrőt úgy értékeli ki a rendszer, hogy a kiválasztott elemeket az éppen renderelt tiddler címére állítja be, lehetővé téve a cím felhasználását a fájlnév kiszámításához. Például az `[encodeuricomponent[]addprefix[static/]]` URI-kódolást alkalmaz minden címhez, majd hozzáadja a `static/` előtagot.
+* Többes ''name''/''value'' pár használható egynél több változó átadására
+* A `--render` parancs rugalmasabb helyettesíti mind a `--rendertiddler`, mind a `--rendertiddlers` parancsot, amelyek elavultak.
 
 Examples:
 
-* `--render '[!is[system]]' '[encodeuricomponent[]addprefix[tiddlers/]addsuffix[.html]]'` -- renders all non-system tiddlers as files in the subdirectory "tiddlers" with URL-encoded titles and the extension HTML
-* `--render '.' 'tiddlers.json' 'text/plain' '$:/core/templates/exporters/JsonFile' 'exportFilter' '[tag[HelloThere]]'` -- renders the tiddlers tagged "HelloThere" to a JSON file named "tiddlers.json"
+* `--render '[!is[system]]' '[encodeuricomponent[]addprefix[tiddlers/]addsuffix[.html]]'` -- az összes nem-rendszer tiddlert fájlként rendereli a "tiddlers" alkönyvtárban az URL-címmel kódolt címekkel és a HTML kiterjesztéssel
+
+* `--render '.' 'tiddlers.json' 'text/plain' '$:/core/templates/exporters/JsonFile' 'exportFilter' '[tag[HelloThere]]'` -- rendereli a "HelloThere" címkével ellátott tiddlereket egy "tiddlers.json" nevű JSON-fájlba
+

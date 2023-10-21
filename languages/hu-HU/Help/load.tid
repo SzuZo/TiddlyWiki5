@@ -1,19 +1,19 @@
 title: $:/language/Help/load
-description: Load tiddlers from a file
+description: Betölti a tiddlereket egy fájlból
 
-Load tiddlers from TiddlyWiki (`.html`), `.tiddler`, `.tid`, `.json` or other local files. The processing applied to incoming files is determined by the file extension. Use the alternative `import` command if you need to specify the deserializer and encoding explicitly.
+Tiddlerek betöltése TiddlyWiki (`.html`), `.tiddler`, `.tid`, `.json` vagy más helyi fájlokból. A bejövő fájlok feldolgozását a fájl kiterjesztése határozza meg. Használja az alternatív `import` parancsot, ha kifejezetten meg kell adnia a deszerializálót és a kódolást.
 
 ```
 --load <filepath> [noerror]
 --load <dirpath> [noerror]
 ```
 
-By default, the load command raises an error if no tiddlers are found. The error can be suppressed by providing the optional "noerror" parameter.
+Alapértelmezés szerint a betöltési parancs hibát jelez, ha nem található tiddler. A hiba elnyomható az opcionális "noerror" paraméter megadásával.
 
-To load tiddlers from an encrypted TiddlyWiki file you should first specify the password with the PasswordCommand. For example:
+A tiddlerek titkosított TiddlyWiki fájlból való betöltéséhez először meg kell adnia a jelszót a PasswordCommand paranccsal. Például:
 
 ```
 tiddlywiki ./MyWiki --password pa55w0rd --load my_encrypted_wiki.html
 ```
 
-Note that TiddlyWiki will not load an older version of an already loaded plugin.
+Vegye figyelembe, hogy a TiddlyWiki nem tölti be a már betöltött bővítmény régebbi verzióját.

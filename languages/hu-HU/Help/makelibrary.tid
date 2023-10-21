@@ -1,14 +1,15 @@
 title: $:/language/Help/makelibrary
-description: Construct library plugin required by upgrade process
+description: Összeállítja a frissítési folyamathoz szükséges könyvtárbővítményt
 
-Constructs the `$:/UpgradeLibrary` tiddler for the upgrade process.
+Összeállítja a `$:/UpgradeLibrary` tiddlert a frissítési folyamathoz.
 
-The upgrade library is formatted as an ordinary plugin tiddler with the plugin type `library`. It contains a copy of each of the plugins, themes and language packs available within the TiddlyWiki5 repository.
+A frissítési könyvtár egy közönséges beépülő modulként van formázva, `library` bővítménytípussal. Tartalmazza a TiddlyWiki5 repository-n belül elérhető összes plugin, téma és nyelvi csomag egy példányát.
 
-This command is intended for internal use; it is only relevant to users constructing a custom upgrade procedure.
+
+Ez a parancs belső használatra készült; csak az egyéni frissítési eljárást létrehozó felhasználók számára releváns.
 
 ```
 --makelibrary <title>
 ```
 
-The title argument defaults to `$:/UpgradeLibrary`.
+A title argumentum alapértelmezett értéke `$:/UpgradeLibrary`.

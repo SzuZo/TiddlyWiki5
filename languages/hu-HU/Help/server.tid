@@ -1,42 +1,41 @@
 title: $:/language/Help/server
-description: (deprecated: see 'listen' command) Provides an HTTP server interface to TiddlyWiki
+description: (elavult: lásd a 'listen' parancsot) Biztosít egy HTTP szerver interfészt a TiddlyWiki számára
 
-Legacy command to serve a wiki over HTTP.
+Megörökölt parancs a wiki HTTP-n keresztüli kiszolgálására.
 
 ```
 --server <port> <root-tiddler> <root-render-type> <root-serve-type> <username> <password> <host> <path-prefix> <debug-level>
 ```
 
-The parameters are:
+A paraméterek a következők:
 
-* ''port'' - port number on which to listen; non-numeric values are interpreted as a system environment variable from which the port number is extracted (defaults to "8080")
-* ''root-tiddler'' - the tiddler to serve at the root (defaults to "$:/core/save/all")
-* ''root-render-type'' - the content type to which the root tiddler should be rendered (defaults to "text/plain")
-* ''root-serve-type'' - the content type with which the root tiddler should be served (defaults to "text/html")
-* ''username'' - the default username for signing edits
-* ''password'' - optional password for basic authentication
-* ''host'' - optional hostname to serve from (defaults to "127.0.0.1" aka "localhost")
-* ''path-prefix'' - optional prefix for paths
-* ''debug-level'' - optional debug level; set to "debug" to view request details (defaults to "none")
+* ''port'' - portszám, amelyen hallgatni kell; A nem numerikus értékek rendszerkörnyezeti változóként értelmeződnek, amelyből a portszám kinyerésre kerül (alapértelmezett "8080")
+* ''root-tiddler'' - a tiddler a gyökérben szolgál ki (alapértelmezés szerint "$:/core/save/all")
+* ''root-render-type'' - az a tartalomtípus, amelyre a gyökér tiddlert renderelni kell (defaults to "text/plain")
+* ''root-serve-type'' - az a tartalomtípus, amellyel a gyökér tiddlert ki kell szolgálni (defaults to "text/html")
+* ''username'' - az alapértelmezett felhasználónév a szerkesztések aláírásához
+* ''password'' - opcionális jelszó az alapvető hitelesítéshez
+* ''host'' - opcionális gazdagépnév a kiszolgáláshoz (alapértelmezett "127.0.0.1" vagy "localhost")
+* ''path-prefix'' - opcionális előtag az útvonalakhoz
+* ''debug-level'' - opcionális hibakeresési szint; állítsa "debug" értékre a kérés részleteinek megtekintéséhez (alapértelmezett a "none")
 
-If the password parameter is specified then the browser will prompt the user for the username and password. Note that the password is transmitted in plain text so this implementation should only be used on a trusted network or over HTTPS.
+Ha a jelszó paraméter meg van adva, akkor a böngésző bekéri a felhasználónevet és jelszót. Vegye figyelembe, hogy a jelszó egyszerű szövegben kerül továbbításra, ezért ezt a megvalósítást csak megbízható hálózaton vagy HTTPS-en keresztül szabad használni.
 
-For example:
+Például:
 
 ```
 --server 8080 $:/core/save/all text/plain text/html MyUserName passw0rd
 ```
 
-The username and password can be specified as empty strings if you need to set the hostname or pathprefix and don't want to require a password.
-
+A felhasználónév és a jelszó üres karakterláncként adható meg, ha be kell állítania a gazdagépnevet vagy az elérési út előtagját, és nem kíván jelszót kérni.
 
 ```
 --server 8080 $:/core/save/all text/plain text/html "" "" 192.168.0.245
 ```
 
-Using an address like this exposes your system to the local network. For information on opening up your instance to the entire local network, and possible security concerns, see the WebServer tiddler at TiddlyWiki.com.
+Egy ilyen cím használata a rendszeredet elérhetővé teszi a helyi hálózaton. A példány teljes helyi hálózatra való megnyitásáról és a lehetséges biztonsági problémákról a TiddlyWiki.com WebServer tiddler oldalán olvashat.
 
-To run multiple TiddlyWiki servers at the same time you'll need to put each one on a different port. It can be useful to use an environment variable to pass the port number to the Node.js process. This example references an environment variable called "MY_PORT_NUMBER":
+Több TiddlyWiki szerver egyidejű futtatásához mindegyiket másik portra kell helyeznie. Hasznos lehet egy környezeti változó használata a portszám átadására a Node.js folyamatnak. Ez a példa egy "MY_PORT_NUMBER" nevű környezeti változóra hivatkozik:
 
 ```
 --server MY_PORT_NUMBER $:/core/save/all text/plain text/html MyUserName passw0rd

@@ -1,23 +1,23 @@
 title: $:/language/Help/init
-description: Initialise a new wiki folder
+description: Inicializál egy új wikimappát
 
-Initialise an empty [[WikiFolder|WikiFolders]] with a copy of the specified edition.
+Az üres [[wiki mappa|WikiFolders]] inicializálása a megadott kiadás másolatával.
 
 ```
 --init <edition> [<edition> ...]
 ```
 
-For example:
+Például:
 
 ```
 tiddlywiki ./MyWikiFolder --init empty
 ```
 
-Note:
+Jegyzet:
 
-* The wiki folder directory will be created if necessary
-* The "edition" defaults to ''empty''
-* The init command will fail if the wiki folder is not empty
-* The init command removes any `includeWikis` definitions in the edition's `tiddlywiki.info` file
-* When multiple editions are specified, editions initialised later will overwrite any files shared with earlier editions (so, the final `tiddlywiki.info` file will be copied from the last edition)
-* `--editions` returns a list of available editions
+* A wiki mappa könyvtára szükség esetén létrejön
+* A "kiadás" alapértelmezés szerint ''empty''
+* Az init parancs meghiúsul, ha a wiki mappa nem üres
+* Az init parancs eltávolít minden `includeWikis` definíciót a kiadás `tiddlywiki.info` fájljában
+* Ha több kiadás van megadva, a később inicializált kiadások felülírják a korábbi kiadásokkal megosztott fájlokat (tehát a végső `tiddlywiki.info` fájl az utolsó kiadásból lesz másolva)
+* A `--editions` az elérhető kiadások listáját adja vissza

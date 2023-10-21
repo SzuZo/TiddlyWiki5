@@ -1,33 +1,33 @@
 title: $:/language/Help/savewikifolder
-description: Saves a wiki to a new wiki folder
+description: Elment egy wikit egy új wiki mappába
 
-<<.from-version "5.1.20">> Saves the current wiki as a wiki folder, including tiddlers, plugins and configuration:
+<<.from-version "5.1.20">> Az aktuális wikit wikimappaként menti, beleértve a tiddlereket, a beépülő modulokat és a konfigurációt:
 
 ```
 --savewikifolder <wikifolderpath> [<filter>] [ [<name>=<value>] ]*
 ```
 
-* The target wiki folder must be empty or non-existent
-* The filter specifies which tiddlers should be included. It is optional, defaulting to `[all[tiddlers]]`
-* Plugins from the official plugin library are replaced with references to those plugins in the `tiddlywiki.info` file
-* Custom plugins are unpacked into their own folder
+* A cél wiki mappának üresnek vagy nem létezőnek kell lennie
+* A szűrő határozza meg, hogy mely tiddlerek szerepeljenek benne. Ez nem kötelező, alapértelmezés szerint `[all[tiddlers]]`
+* A hivatalos beépülő modulok könyvtárából származó beépülő modulok le lesznek cserélve a `tiddlywiki.info' fájlban található hivatkozásokkal.
+* Az egyéni bővítmények a saját mappájukba vannak kicsomagolva
 
-The following options are supported:
+A következő opciók támogatottak:
 
-* ''filter'': a filter expression that defines the tiddlers to include in the output.
-* ''explodePlugins'': defaults to "yes"
-** ''yes'' will "explode" plugins into separate tiddler files and save them to the plugin directory within the wiki folder
-** ''no'' will suppress exploding plugins into their constituent tiddler files. It will save the plugin as a single JSON tiddler in the tiddlers folder
+* ''filter'': egy szűrőkifejezés, amely meghatározza a kimenetbe mentendő tiddlereket.
+* ''explodePlugins'': alapértelmezés szerint "yes"
+** A ''yes'' külön tiddler fájlokba "robbanja" a beépülő modulokat, és elmenti őket a wiki mappán belüli plugin könyvtárába
+** A ''no'' elnyomja a felrobbanó beépülő modulokat az alkotó tiddler fájljaikban. A beépülő modult egyetlen JSON tiddlerként menti a tiddlerek mappába
 
-Note that both ''explodePlugins'' options will produce wiki folders that build the exact same original wiki. The difference lies in how plugins are represented in the wiki folder.
+Ne feledje, hogy mindkét ''explodePlugins'' opció olyan wiki mappákat hoz létre, amelyek pontosan ugyanazt az eredeti wikit építik fel. A különbség abban rejlik, hogy a beépülő modulok hogyan jelennek meg a wiki mappában.
 
-A common usage is to convert a TiddlyWiki HTML file into a wiki folder:
+Egy általános használat egy TiddlyWiki HTML-fájl wikimappává alakítására:
 
 ```
 tiddlywiki --load ./mywiki.html --savewikifolder ./mywikifolder
 ```
 
-Save the plugin to the tiddlers directory of the target wiki folder:
+Mentse el a bővítményt a cél wikimappa tiddlerek könyvtárába:
 
 ```
 tiddlywiki --load ./mywiki.html --savewikifolder ./mywikifolder explodePlugins=no

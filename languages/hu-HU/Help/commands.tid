@@ -1,13 +1,13 @@
 title: $:/language/Help/commands
-description: Run commands returned from a filter
+description: A szűrőből visszaadott parancsok futtatása
 
-Sequentially run the command tokens returned from a filter
+Futtassa egymás után a szűrőből visszaadott parancs tokeneket
 
 ```
---commands <filter>
+--commands <szűrő>
 ```
 
-Examples
+Példák
 
 ```
 --commands "[enlist{$:/build-commands-as-text}]"

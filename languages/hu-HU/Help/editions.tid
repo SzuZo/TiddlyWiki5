@@ -1,7 +1,7 @@
 title: $:/language/Help/editions
-description: Lists the available editions of TiddlyWiki
+description: Felsorolja a TiddlyWiki elérhető kiadásait
 
-Lists the names and descriptions of the available editions. You can create a new wiki of a specified edition with the `--init` command.
+Felsorolja az elérhető kiadások nevét és leírását. Létrehozhat egy új wikit egy adott kiadásból a `--init` paranccsal.
 
 ```
 --editions

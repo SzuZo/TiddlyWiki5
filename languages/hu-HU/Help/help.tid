@@ -1,10 +1,10 @@
 title: $:/language/Help/help
-description: Display help for TiddlyWiki commands
+description: Súgó megjelenítése a TiddlyWiki parancsokhoz
 
-Displays help text for a command:
+Megjeleníti egy parancs súgószövegét:
 
 ```
---help [<command>]
+--help [<parancs>]
 ```
 
-If the command name is omitted then a list of available commands is displayed.
+Ha a parancs nevét kihagyja, akkor megjelenik az elérhető parancsok listája.

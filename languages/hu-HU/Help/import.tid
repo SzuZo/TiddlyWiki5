@@ -1,13 +1,14 @@
 title: $:/language/Help/import
-description: Import tiddlers from a file
+description: Tiddlerek importálása fájlból
 
-Import tiddlers from TiddlyWiki (`.html`), `.tiddler`, `.tid`, `.json` or other local files. The deserializer must be explicitly specified, unlike the `load` command which infers the deserializer from the file extension.
+Tiddlerek importálása a TiddlyWiki (`.html`), `.tiddler`, `.tid`, `.json` vagy más helyi fájlokból. A deszerializálót kifejezetten meg kell adni, ellentétben a `load`  paranccsal, amely a fájlkiterjesztésből következtet a deszerializálóra.
+
 
 ```
 --import <filepath> <deserializer> [<title>] [<encoding>]
 ```
 
-The deserializers in the core include:
+A core-ban lévő deszerializálók a következők:
 
 * application/javascript
 * application/json
@@ -17,8 +18,8 @@ The deserializers in the core include:
 * text/html
 * text/plain
 
-The title of the imported tiddler defaults to the filename.
+Az importált tiddler címe alapértelmezés szerint a fájlnév.
 
-The encoding defaults to "utf8", but can be "base64" for importing binary files.
+A kódolás alapértelmezés szerint "utf8", de lehet "base64" is a bináris fájlok importálásához.
 
-Note that TiddlyWiki will not import an older version of an already loaded plugin.
+Vegye figyelembe, hogy a TiddlyWiki nem importálja a már betöltött bővítmény régebbi verzióját.

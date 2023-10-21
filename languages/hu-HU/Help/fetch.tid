@@ -1,7 +1,7 @@
 title: $:/language/Help/fetch
-description: Fetch tiddlers from wiki by URL
+description: Lekéri a tiddlerek a wikiből URL alapján
 
-Fetch one or more files over HTTP/HTTPS, and import the tiddlers matching a filter, optionally transforming the incoming titles.
+Kérjen le egy vagy több fájlt HTTP/HTTPS-en keresztül, és importálja a szűrőnek megfelelő tiddlereket, opcionálisan átalakítva a bejövő címeket.
 
 ```
 --fetch file <url> <import-filter> <transform-filter>
@@ -10,27 +10,27 @@ Fetch one or more files over HTTP/HTTPS, and import the tiddlers matching a filt
 --fetch raw-files <url-filter> <transform-filter>
 ```
 
-The "file" and "files" variants fetch the specified files and attempt to import the tiddlers within them (the same processing as if the files were dragged into the browser window). The "raw-file" and "raw-files" variants fetch the specified files and then store the raw file data in tiddlers, without applying the import logic.
+A "file" és a "files" változatok lekérik a megadott fájlokat, és megpróbálják importálni a bennük lévő tiddlereket (ugyanaz a feldolgozás, mintha a fájlokat a böngészőablakba húznák). A "raw-file" és "raw-files" változatok lekérik a megadott fájlokat, majd a nyers fájladatokat tiddlerekben tárolják, az importálási logika alkalmazása nélkül.
 
-With the "file" and "raw-file" variants only a single file is fetched and the first parameter is the URL of the file to read.
+A "file" és "raw-file" változatoknál csak egyetlen fájl kerül lehívásra, és az első paraméter az olvasandó fájl URL-je.
 
-With the "files" and "raw-files" variants, multiple files are fetched and the first parameter is a filter yielding a list of URLs of the files to read. For example, given a set of tiddlers tagged "remote-server" that have a field "url" the filter `[tag[remote-server]get[url]]` will retrieve all the available URLs.
+A "files" és a "raw-files" változatoknál több fájl kerül lehívásra, és az első paraméter egy szűrő, amely az olvasandó fájlok URL-címeinek listáját adja meg. Például egy "remote-server" címkével rendelkező, "url" mezővel rendelkező tiddler készlet esetén a `[tag[remote-server]get[url]]` szűrő lekéri az összes elérhető URL-t.
 
-For the "file" and "files" variants, the `<import-filter>` parameter specifies a filter determining which tiddlers are imported. It defaults to `[all[tiddlers]]` if not provided.
+A "file" és "files" változatok esetében az `<import-filter>` paraméter meghatároz egy szűrőt, amely meghatározza, hogy mely tiddlereket importálja a rendszer. Alapértelmezés szerint az `[all[tiddlers]]`, ha nincs megadva.
 
-For all variants, the `<transform-filter>` parameter specifies an optional filter that transforms the titles of the imported tiddlers. For example, `[addprefix[$:/myimports/]]` would add the prefix `$:/myimports/` to each title.
+Minden változatnál a `<transform-filter>` paraméter megad egy opcionális szűrőt, amely átalakítja az importált tiddlerek címeit. Például az `[addprefix[$:/myimports/]]` minden címhez hozzáadja a `$:/myimports/` előtagot.
 
-Preceding the `--fetch` command with `--verbose` will output progress information during the import.
+Ha a `--fetch` parancsot megelőzi a `--verbose`-val, akkor az importálás során folyamatinformációkat ad ki.
 
-Note that TiddlyWiki will not fetch an older version of an already loaded plugin.
+Vegye figyelembe, hogy a TiddlyWiki nem fogja lekérni a már betöltött bővítmény régebbi verzióját.
 
-The following example retrieves all the non-system tiddlers from https://tiddlywiki.com and saves them to a JSON file:
+A következő példa lekéri az összes rendszeren kívüli tiddlert a https://tiddlywiki.com webhelyről, és elmenti őket egy JSON-fájlba:
 
 ```
 tiddlywiki --verbose --fetch file "https://tiddlywiki.com/" "[!is[system]]" "" --rendertiddler "$:/core/templates/exporters/JsonFile" output.json text/plain "" exportFilter "[!is[system]]"
 ```
 
-The following example retrieves the "favicon" file from tiddlywiki.com and saves it in a file called "output.ico". Note that the intermediate tiddler "Icon Tiddler" is quoted in the "--fetch" command because it is being used as a transformation filter to replace the default title, while there are no quotes for the "--savetiddler" command because it is being used directly as a title.
+A következő példa lekéri a "favicon" fájlt a tiddlywiki.com webhelyről, és elmenti egy "output.ico" nevű fájlba. Vegye figyelembe, hogy az "Icon Tiddler" köztes tiddler idézőjelbe kerül a "--fetch" parancsban, mert azt transzformációs szűrőként használják az alapértelmezett cím helyettesítésére, míg a "--savetiddler" parancshoz nincsenek idézőjelek, mert az közvetlenül címként használják.
 
 ```
 tiddlywiki --verbose --fetch raw-file "https://tiddlywiki.com/favicon.ico" "[[Icon Tiddler]]" --savetiddler "Icon Tiddler" output.ico

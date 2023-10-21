@@ -1,11 +1,11 @@
 title: $:/language/Help/output
-description: Set the base output directory for subsequent commands
+description: Beállítja az alap kimeneti könyvtárat a későbbi parancsoknak
 
-Sets the base output directory for subsequent commands. The default output directory is the `output` subdirectory of the edition directory.
+Beállítja az alap kimeneti könyvtárat a későbbi parancsoknak. Az alapértelmezett kimeneti könyvtár a kiadási könyvtár `output` alkönyvtára.
 
 ```
 --output <pathname>
 ```
 
-If the specified pathname is relative then it is resolved relative to the current working directory. For example `--output .` sets the output directory to the current working directory.
+Ha a megadott elérési út relatív, akkor az aktuális munkakönyvtárhoz képest lesz feloldva. Például a `--output .` a kimeneti könyvtárat az aktuális munkakönyvtárra állítja.
 

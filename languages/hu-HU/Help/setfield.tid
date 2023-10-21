@@ -1,17 +1,18 @@
 title: $:/language/Help/setfield
-description: Prepares external tiddlers for use
+description: Előkészíti a külső tiddlereket a használatra
 
-//Note that this command is experimental and may change or be replaced before being finalised//
+//Ne feledje, hogy ez a parancs kísérleti jellegű, és a véglegesítés előtt változhat vagy lecserélhető//
 
-Sets the specified field of a group of tiddlers to the result of wikifying a template tiddler with the `currentTiddler` variable set to the tiddler.
+Beállítja a tiddlerek egy csoportjának megadott mezőjét egy sablon tiddler wikizálásának eredményére, ha a `currentTiddler` változó a tiddlerre van állítva.
 
 ```
 --setfield <filter> <fieldname> <templatetitle> <rendertype>
 ```
 
-The parameters are:
+A paraméterek a következők:
 
-* ''filter'' - filter identifying the tiddlers to be affected
-* ''fieldname'' - the field to modify (defaults to "text")
-* ''templatetitle'' - the tiddler to wikify into the specified field. If blank or missing then the specified field is deleted
-* ''rendertype'' - the text type to render (defaults to "text/plain"; "text/html" can be used to include HTML tags)
+* ''filter'' - szűrő, amely azonosítja az érintett tiddlereket
+* ''fieldname'' - a módosítandó mező (alapértelmezetten "text")
+* ''templatetitle'' - a wikizáláshoz a tiddler a megadott mezőbe. Ha üres vagy hiányzik, akkor a megadott mező törlődik
+* ''rendertype'' - a rendereléshez a szöveg típusa (alapértelmezett: "text/plain"; a "text/html" használható HTML-címkék beillesztésére)
+

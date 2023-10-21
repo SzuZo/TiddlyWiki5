@@ -1,43 +1,43 @@
 title: $:/language/Docs/Fields/
 
-_canonical_uri: The full URI of an external image tiddler
-author: Name of the author of a plugin
-bag: The name of the bag from which a tiddler came
-caption: The text to be displayed on a tab or button
-code-body: The view template will display the tiddler as code if set to ''yes''
-color: The CSS color value associated with a tiddler
-component: The name of the component responsible for an [[alert tiddler|AlertMechanism]]
-core-version: For a plugin, indicates what version of TiddlyWiki with which it is compatible
-current-tiddler: Used to cache the top tiddler in a [[history list|HistoryMechanism]]
-created: The date a tiddler was created
-creator: The name of the person who created a tiddler
-dependents: For a plugin, lists the dependent plugin titles
-description: The descriptive text for a plugin, or a modal dialogue
-draft.of: For draft tiddlers, contains the title of the tiddler of which this is a draft
-draft.title: For draft tiddlers, contains the proposed new title of the tiddler
-footer: The footer text for a modal
-hide-body: The view template will hide bodies of tiddlers if set to ''yes''
-icon: The title of the tiddler containing the icon associated with a tiddler
-library: Indicates that a tiddler should be saved as a JavaScript library if set to ''yes''
-list: An ordered list of tiddler titles associated with a tiddler
-list-before: If set, the title of a tiddler before which this tiddler should be added to the ordered list of tiddler titles, or at the start of the list if this field is present but empty
-list-after: If set, the title of the tiddler after which this tiddler should be added to the ordered list of tiddler titles, or at the end of the list if this field is present but empty
-modified: The date and time at which a tiddler was last modified
-modifier: The tiddler title associated with the person who last modified a tiddler
-module-type: For javascript tiddlers, specifies what kind of module it is
-name: The human readable name associated with a plugin tiddler
-parent-plugin: For a plugin, specifies which plugin of which it is a sub-plugin
-plugin-priority: A numerical value indicating the priority of a plugin tiddler
-plugin-type: The type of plugin in a plugin tiddler
-revision: The revision of the tiddler held at the server
-released: Date of a TiddlyWiki release
-source: The source URL associated with a tiddler
-subtitle: The subtitle text for a modal
-tags: A list of tags associated with a tiddler
-text: The body text of a tiddler
-throttle.refresh: If present, throttles refreshes of this tiddler
-title: The unique name of a tiddler
-toc-link: Suppresses the tiddler's link in a Table of Contents tree if set to ''no'' 
-type: The content type of a tiddler
-version: Version information for a plugin
-_is_skinny: If present, indicates that the tiddler text field must be loaded from the server
+_canonical_uri: Egy külső kép tiddler teljes URI-ja
+author: Egy bővítmény szerzőjének neve
+bag: Annak a táskának a neve, amelyből egy tiddler jött
+caption: A fülön vagy gombon megjelenítendő szöveg
+code-body: A nézetsablon a tiddlert kódként jeleníti meg, ha ''yes''-re van állítva
+color: A tiddlerhez társított CSS-színérték
+component: A [[figyelmeztető tiddler|AlertMechanism]]-ért felelős összetevő neve
+core-version: Beépülő modul esetén jelzi, hogy a TiddlyWiki melyik verziójával kompatibilis
+current-tiddler: Egy [[történet listában|HistoryMechanism]] a legfelső tiddler gyorsítótárazására szolgál
+created: Egy tiddler létrehozásának dátuma
+creator: Annak a személynek a neve, aki létrehozta a tiddlert
+dependents: Beépülő modulok esetén felsorolja a függő beépülő modulok címeit
+description: A beépülő modul vagy egy modális párbeszéd leíró szövege
+draft.of: Piszkozat tiddlereknél, annak a tiddlernek a címét tartalmazza, akinek ez a piszkozata
+draft.title: Piszkozat tiddlereknél, a tiddler javasolt új címét tartalmazza
+footer: A modális lábléc szövege
+hide-body: A nézetsablon elrejti a tiddlerek testét, ha ''yes''-re van állítva
+icon: A tiddler címe, amely a tiddlerhez tartozó ikont tartalmazza
+library: Azt jelzi, hogy a tiddlert JavaScript-könyvtárként kell menteni, ha ''yes''-re van állítva
+list: A tiddlerhez társított tiddler címek rendezett listája
+list-before: Ha be van állítva, annak a tiddlernek a címe, amely előtt ezt a tiddlert fel kell venni a tiddler címek rendezett listájába, vagy a lista elején, ha ez a mező jelen van, de üres
+list-after: Ha be van állítva, annak a tiddlernek a címe, amely után ezt a tiddlert fel kell venni a tiddler címek rendezett listájába, vagy a lista végére, ha ez a mező jelen van, de üres
+modified: Az a dátum és időpont, amikor a tiddlert utoljára módosították
+modifier: Az a személyhez társított tiddler cím, aki utoljára módosított egy tiddlert
+module-type: Javascript tiddlereknél, meghatározza milyen modulról van szó
+name: A beépülő modulhoz társított, ember által olvasható név
+parent-plugin: Pluginnál, megadja melyik plugin melyik al-pluginja
+plugin-priority: A plugin tiddler prioritását jelző számérték
+plugin-type: A plugin típusa egy plugin tiddlerben
+revision: A szerveren tartott tiddler revíziója
+released: A TiddlyWiki kiadásának dátuma
+source: A tiddlerhez társított forrás URL
+subtitle: A modális alcím szövege
+tags: A tiddlerhez társított címkék listája
+text: Egy tiddler törzsszövege
+throttle.refresh: Ha van, akkor a throttles frissítik a tiddlert
+title: Egy tiddler egyedi neve
+toc-link: Elnyomja a tiddler linkjét a tartalomjegyzék-fában, ha az értéke ''no''
+type: A tiddler tartalomtípusa
+version: Egy plugin verzióinformációi
+_is_skinny: Ha jelen van, azt jelzi, hogy a tiddler szövegmezőt be kell tölteni a szerverről

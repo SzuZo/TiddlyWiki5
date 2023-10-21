@@ -35,10 +35,9 @@ EditorTypes/Editor/Caption: Szerkesztő
 EditorTypes/Hint: Ezek a tiddlerek határozzák meg, hogy melyik szerkesztőt használják az adott tiddler-típusok szerkesztéséhez.
 EditorTypes/Type/Caption: Típus
 EditTemplateBody/Caption: Szerkesztő sablon törzs
-EditTemplateBody/Hint: Ezt a szabálykaszkádot használja az alapértelmezett szerkesztéssablon, hogy dinamikusan válassza ki a sablonta tiddler törzsének szerkesztéséhez.
+EditTemplateBody/Hint: Ezt a szabálykaszkádot használja az alapértelmezett szerkesztéssablon, hogy dinamikusan válassza ki a sablont a tiddler törzsének szerkesztéséhez.
 FieldEditor/Caption: Mezőszerkesztő
-FieldEditor/Hint: 
-Ez a szabálykaszkád arra szolgál, hogy dinamikusan válassza ki a sablont a tiddler-mezők neve alapján történő rendereléséhez. A szerkesztési sablonon (Edit Template) belül használatos.
+FieldEditor/Hint: Ez a szabálykaszkád arra szolgál, hogy dinamikusan válassza ki a sablont a tiddler-mezők neve alapján történő rendereléséhez. A szerkesztési sablonon (Edit Template) belül használatos.
 Info/Caption: Infó
 Info/Hint: Információ erről a TiddlyWikiről
 KeyboardShortcuts/Add/Prompt: Ide írja be a parancsikont
@@ -200,7 +199,7 @@ Settings/MissingLinks/Caption: Wiki Linkek
 Settings/MissingLinks/Hint: Válassza ki, hogy szeretne-e linkelni még nem létező tiddlereket
 Settings/MissingLinks/Description: Engedélyezze a hiányzó tiddlerekre mutató linkeket
 StoryTiddler/Caption: Sztori tiddler
-StoryTiddler/Hint: Ez a szabálykaszkád arra szolgál, hogy dinamikusan kiválassza a sablont, amivel megjeleníti a tiddlert a történetfolyamban.
+StoryTiddler/Hint: Ez a szabálykaszkád arra szolgál, hogy dinamikusan kiválassza a sablont, amivel megjeleníti a tiddlert a sztorifolyamban.
 StoryView/Caption: Sztorinézet
 StoryView/Prompt: Jelenlegi nézet:
 Stylesheets/Caption: Stíluslapok

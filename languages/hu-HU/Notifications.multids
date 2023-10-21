@@ -1,6 +1,6 @@
 title: $:/language/Notifications/
 
-Save/Done: Saved wiki
-Save/Starting: Starting to save wiki
-CopiedToClipboard/Succeeded: Copied to clipboard!
-CopiedToClipboard/Failed: Failed to copy to clipboard!
+Save/Done: Mentett wiki
+Save/Starting: A wiki mentésének indítása
+CopiedToClipboard/Succeeded: Vágólapra másolva!
+CopiedToClipboard/Failed: Nem sikerült a vágólapra másolni!

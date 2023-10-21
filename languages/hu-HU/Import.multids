@@ -1,34 +1,35 @@
 title: $:/language/Import/
 
-Editor/Import/Heading: Import images and insert them into the editor.
-Imported/Hint: The following tiddlers were imported:
-Listing/Cancel/Caption: Cancel
-Listing/Cancel/Warning: Do you wish to cancel the import?
-Listing/Hint: These tiddlers are ready to import:
-Listing/Import/Caption: Import
-Listing/Select/Caption: Select
-Listing/Status/Caption: Status
-Listing/Title/Caption: Title
-Listing/Preview: Preview:
-Listing/Preview/Text: Text
-Listing/Preview/TextRaw: Text (Raw)
-Listing/Preview/Fields: Fields
+Editor/Import/Heading: Importáljon képeket és szúrja be őket a szerkesztőbe.
+Imported/Hint: A következő tiddlereket importálták:
+Listing/Cancel/Caption: Mégse
+Listing/Cancel/Warning: Meg akarja szakítani az importálást?
+Listing/Hint: Ezek a tiddlersek készen állnak az importálásra:
+Listing/Import/Caption: Importálás
+Listing/Select/Caption: Kiválasztás
+Listing/Status/Caption: Állapot
+Listing/Title/Caption: Cím
+Listing/Preview: Előnézet:
+Listing/Preview/Text: Szöveg
+Listing/Preview/TextRaw: Szöveg (nyers)
+Listing/Preview/Fields: Mezők
 Listing/Preview/Diff: Diff
-Listing/Preview/DiffFields: Diff (Fields)
-Listing/Rename/Tooltip: Rename tiddler before importing
-Listing/Rename/Prompt: Rename to:
-Listing/Rename/ConfirmRename: Rename tiddler
-Listing/Rename/CancelRename: Cancel
-Listing/Rename/OverwriteWarning: A tiddler with this title already exists.
-Upgrader/Plugins/Suppressed/Incompatible: Blocked incompatible or obsolete plugin.
-Upgrader/Plugins/Suppressed/Version: Blocked plugin (due to incoming <<incoming>> not being newer than existing <<existing>>).
-Upgrader/Plugins/Upgraded: Upgraded plugin from <<incoming>> to <<upgraded>>.
-Upgrader/State/Suppressed: Blocked temporary state tiddler.
-Upgrader/System/Disabled: Disabled system tiddler.
-Upgrader/System/Suppressed: Blocked system tiddler.
+Listing/Preview/DiffFields: Diff (mezők)
+Listing/Rename/Tooltip: Importálás előtt nevezze át a tiddlert
+Listing/Rename/Prompt: Átnevezés erre:
+Listing/Rename/ConfirmRename: Tiddler átnevezése
+Listing/Rename/CancelRename: Mégse
+Listing/Rename/OverwriteWarning: Már létezik ilyen nevű tiddler.
+Upgrader/Plugins/Suppressed/Incompatible: Blokkolt inkompatibilis vagy elavult bővítmény.
+Upgrader/Plugins/Suppressed/Version: Blokkolt bővítmény (mivel a bejövő <<incoming>> nem újabb, mint a meglévő <<existing>>).
+Upgrader/Plugins/Upgraded: Frissített bővítmény <<incoming>>-ről <<upgraded>>-re.
+Upgrader/State/Suppressed: Blokkolt ideiglenes állapotú tiddler.
+Upgrader/System/Disabled: Letiltott rendszer tiddler.
+Upgrader/System/Suppressed: Blokkolt rendszer tiddler.
 Upgrader/System/Warning: Core module tiddler.
-Upgrader/System/Alert: You are about to import a tiddler that will overwrite a core module tiddler. This is not recommended as it may make the system unstable.
-Upgrader/ThemeTweaks/Created: Migrated theme tweak from <$text text=<<from>>/>.
-Upgrader/Tiddler/Disabled: Disabled tiddler.
-Upgrader/Tiddler/Selected: Selected tiddler.
-Upgrader/Tiddler/Unselected: Unselected tiddler.
+Upgrader/System/Alert: Olyan tiddlert készül importálni, amely felülírja az alapmodul tiddlerjét. Ez nem ajánlott, mert instabillá teheti a rendszert.
+Upgrader/ThemeTweaks/Created: A téma módosítása áttelepítve a <$text text=<<from>>/>-ből.
+Migrated theme tweak from <$text text=<<from>>/>.
+Upgrader/Tiddler/Disabled: Letiltott tiddler.
+Upgrader/Tiddler/Selected: Kiválasztott tiddler.
+Upgrader/Tiddler/Unselected: Kiválasztatlan tiddler.

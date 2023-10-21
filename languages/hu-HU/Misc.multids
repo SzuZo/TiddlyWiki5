@@ -1,54 +1,54 @@
 title: $:/language/
 
-AboveStory/ClassicPlugin/Warning: It looks like you are trying to load a plugin designed for ~TiddlyWiki Classic. Please note that [[these plugins do not work with TiddlyWiki version 5.x.x|https://tiddlywiki.com/#TiddlyWikiClassic]]. ~TiddlyWiki Classic plugins detected:
-BinaryWarning/Prompt: This tiddler contains binary data
-ClassicWarning/Hint: This tiddler is written in TiddlyWiki Classic wiki text format, which is not fully compatible with TiddlyWiki version 5. See https://tiddlywiki.com/static/Upgrading.html for more details.
-ClassicWarning/Upgrade/Caption: upgrade
+AboveStory/ClassicPlugin/Warning: Úgy tűnik, hogy a ~TiddlyWiki Classichoz tervezett bővítményt próbálsz betölteni. Kérjük, vegye figyelembe, hogy [[ezek a bővítmények nem működnek a TiddlyWiki 5.x.x|https://tiddlywiki.com/#TiddlyWikiClassic]] verziójával. ~TiddlyWiki Classic beépülő modulok észlelve:
+BinaryWarning/Prompt: Ez a tiddler bináris adatokat tartalmaz
+ClassicWarning/Hint: Ez a tiddler TiddlyWiki Classic wiki szövegformátumban készült, amely nem teljesen kompatibilis a TiddlyWiki 5-ös verziójával. További részletekért lásd: https://tiddlywiki.com/static/Upgrading.html.
+ClassicWarning/Upgrade/Caption: frissítés
 CloseAll/Button: az összes bezárása
-ColourPicker/Recent: Recent:
+ColourPicker/Recent: Legutóbbi:
 ConfirmCancelTiddler: El szeretné-e vetni a "<$text text=<<title>>/>" tiddler módosításait?
 ConfirmDeleteTiddler: Törölni szeretné a "<$text text=<<title>>/>" tiddlert?
 ConfirmDeleteTiddlers: Biztos benne, hogy törölni kívánja a <<resultCount>> tiddlert?
 ConfirmOverwriteTiddler: Felül akarja írni a "<$text text=<<title>>/>" tiddlert?
-ConfirmEditShadowTiddler: You are about to edit a ShadowTiddler. Any changes will override the default system making future upgrades non-trivial. Are you sure you want to edit "<$text text=<<title>>/>"?
+ConfirmEditShadowTiddler: Egy ShadowTiddler szerkesztésére készül. Minden változtatás felülírja az alapértelmezett rendszert, így a jövőbeni frissítések nem triviálisak. Biztosan szerkeszteni szeretné a következőt: "<$text text=<<title>>/>"?
 ConfirmAction: Szeretné folytatni?
-Count: count
+Count: szám
 DefaultNewTiddlerTitle: Új tiddler
 Diffs/CountMessage: <<diff-count>> különbség
 DropMessage: Dobd most (vagy használd az 'Escape' billentyűt a mégsemhez)
 Encryption/Cancel: Mégse
-Encryption/ConfirmClearPassword: Do you wish to clear the password? This will remove the encryption applied when saving this wiki
-Encryption/PromptSetPassword: Set a new password for this TiddlyWiki
-Encryption/Username: Username
-Encryption/Password: Password
-Encryption/RepeatPassword: Repeat password
-Encryption/PasswordNoMatch: Passwords do not match
-Encryption/SetPassword: Set password
-Error/Caption: Error
-Error/DeserializeOperator/MissingOperand: Filter Error: Missing operand for 'deserialize' operator
-Error/DeserializeOperator/UnknownDeserializer: Filter Error: Unknown deserializer provided as operand for the 'deserialize' operator
-Error/Filter: Filter error
-Error/FilterSyntax: Syntax error in filter expression
-Error/FilterRunPrefix: Filter Error: Unknown prefix for filter run
-Error/IsFilterOperator: Filter Error: Unknown operand for the 'is' filter operator
-Error/FormatFilterOperator: Filter Error: Unknown suffix for the 'format' filter operator
-Error/LoadingPluginLibrary: Error loading plugin library
-Error/NetworkErrorAlert: `<h2>''Network Error''</h2>It looks like the connection to the server has been lost. This may indicate a problem with your network connection. Please attempt to restore network connectivity before continuing.<br><br>''Any unsaved changes will be automatically synchronised when connectivity is restored''.`
-Error/PutEditConflict: File changed on server
-Error/PutForbidden: Permission denied
-Error/PutUnauthorized: Authentication required
-Error/RecursiveTransclusion: Recursive transclusion error in transclude widget
-Error/RetrievingSkinny: Error retrieving skinny tiddler list
-Error/SavingToTWEdit: Error saving to TWEdit
-Error/WhileSaving: Error while saving
-Error/XMLHttpRequest: XMLHttpRequest error code
-Error/ZoominTextNode: Story View Error: It appears you tried to interact with a tiddler that displays in a custom container. This is most likely caused by using `$:/tags/StoryTiddlerTemplateFilter` with a template that contains text or whitespace at the start. Please use the pragma `\whitespace trim` and ensure the whole contents of the tiddler is wrapped in a single HTML element. The text that caused this issue:
-InternalJavaScriptError/Title: Internal JavaScript Error
-InternalJavaScriptError/Hint: Well, this is embarrassing. It is recommended that you restart TiddlyWiki by refreshing your browser
-LayoutSwitcher/Description: Open the layout switcher
-LazyLoadingWarning: <p>Trying to load external content from ''<$text text={{!!_canonical_uri}}/>''</p><p>If this message doesn't disappear, either the tiddler content type doesn't match the type of the external content, or you may be using a browser that doesn't support external content for wikis loaded as standalone files. See https://tiddlywiki.com/#ExternalText</p>
-LoginToTiddlySpace: Login to TiddlySpace
-Manager/Controls/FilterByTag/None: (none)
+Encryption/ConfirmClearPassword: Szeretné törölni a jelszót? Ezzel eltávolítja a wiki mentésekor alkalmazott titkosítást
+Encryption/PromptSetPassword: Állítson be új jelszót ehhez a TiddlyWikihez
+Encryption/Username: Felhasználónév
+Encryption/Password: Jelszó
+Encryption/RepeatPassword: Ismételje meg a jelszót
+Encryption/PasswordNoMatch: A jelszavak nem egyeznek
+Encryption/SetPassword: Jelszó beállítása
+Error/Caption: Hiba
+Error/DeserializeOperator/MissingOperand: Szűrési hiba: Hiányzik a 'deserialize' operátor operandusa
+Error/DeserializeOperator/UnknownDeserializer: Szűrési hiba: Ismeretlen deszerializálót adott meg operandusként a 'deserialize' operátor számára
+Error/Filter: Szűrőhiba
+Error/FilterSyntax: Szintaktikai hiba a szűrőkifejezésben
+Error/FilterRunPrefix: Szűrőhiba: Ismeretlen előtag a szűrő futtatásához
+Error/IsFilterOperator: Szűrési hiba: Ismeretlen operandus az 'is' szűrőoperátorhoz
+Error/FormatFilterOperator: Szűrési hiba: Ismeretlen utótag a 'format' szűrőoperátorhoz
+Error/LoadingPluginLibrary: Hiba a bővítménykönyvtár betöltésekor
+Error/NetworkErrorAlert: `<h2>''Hálózati hiba''</h2>Úgy tűnik, megszakadt a kapcsolat a szerverrel. Ez a hálózati kapcsolat problémájára utalhat. Kérjük, a folytatás előtt próbálja meg visszaállítani a hálózati kapcsolatot.<br><br>''A nem mentett módosítások automatikusan szinkronizálásra kerülnek, amikor a kapcsolat helyreáll''.
+Error/PutEditConflict: A fájl megváltozott a szerveren
+Error/PutForbidden: Engedély megtagadva
+Error/PutUnauthorized: Hitelesítés szükséges
+Error/RecursiveTransclusion: Rekurzív transclusion/átírási hiba a transclude widgetben
+Error/RetrievingSkinny: Hiba történt a sovány/skinny tiddlerek listájának lekérésekor
+Error/SavingToTWEdit: Hiba a TWEditbe történő mentéskor
+Error/WhileSaving: Hiba a mentés közben
+Error/XMLHttpRequest: XMLHttpRequest hibakód
+Error/ZoominTextNode: Sztorinézet Hiba: Úgy tűnik, hogy megpróbált kapcsolatba lépni egy egyéni tárolóban megjelenő tiddlerrel. Ezt valószínűleg az okozza, hogy a `$:/tags/StoryTiddlerTemplateFilter` olyan sablont használ, amely szöveget vagy szóközt tartalmaz az elején. Kérjük, használja a „\whitespace trim” pragmát, és gondoskodjon arról, hogy a tiddler teljes tartalma egyetlen HTML-elembe legyen csomagolva. A problémát okozó szöveg:
+InternalJavaScriptError/Title: Belső JavaScript-hiba
+InternalJavaScriptError/Hint: Nos, ez kínos. Javasoljuk, hogy a böngésző frissítésével indítsa újra a TiddlyWikit
+LayoutSwitcher/Description: Megnyitja az elrendezés választót
+LazyLoadingWarning: <p>Külső tartalom betöltése a következőből: ''<$text text={{!!_canonical_uri}}/>''</p><p>Ha ez az üzenet nem tűnik el, akkor a tiddler tartalomtípus nem egyezik a külső tartalom típusával, vagy előfordulhat, hogy olyan böngészőt használ, amely nem támogatja az önálló fájlként betöltött wikik külső tartalmát. Lásd: https://tiddlywiki.com/#ExternalText</p>
+LoginToTiddlySpace: Jelentkezzen be a TiddlySpace-be
+Manager/Controls/FilterByTag/None: (nincs)
 Manager/Controls/FilterByTag/Prompt: Címke szerint szűr:
 Manager/Controls/Order/Prompt: Fordított sorrend
 Manager/Controls/Search/Placeholder: Keresés
@@ -57,23 +57,23 @@ Manager/Controls/Show/Option/Tags: címkék
 Manager/Controls/Show/Option/Tiddlers: tiddlerek
 Manager/Controls/Show/Prompt: Megjelenít:
 Manager/Controls/Sort/Prompt: Rendez eszerint:
-Manager/Item/Colour: Colour
-Manager/Item/Fields: Fields
-Manager/Item/Icon/None: (none)
-Manager/Item/Icon: Icon
+Manager/Item/Colour: Szín
+Manager/Item/Fields: Mezők
+Manager/Item/Icon/None: (nincs)
+Manager/Item/Icon: Ikon
 Manager/Item/RawText: Nyers szöveg
 Manager/Item/Tags: Címkék
 Manager/Item/Tools: Eszközök
 Manager/Item/WikifiedText: Wikified (wikisített) szöveg
-MissingTiddler/Hint: Missing tiddler "<$text text=<<currentTiddler>>/>" -- click {{||$:/core/ui/Buttons/edit}} to create
-No: No
-OfficialPluginLibrary: Official ~TiddlyWiki Plugin Library
-OfficialPluginLibrary/Hint: The official ~TiddlyWiki plugin library at tiddlywiki.com. Plugins, themes and language packs are maintained by the core team.
-PageTemplate/Description: the default ~TiddlyWiki layout
-PageTemplate/Name: Default ~PageTemplate
-PluginReloadWarning: Please save {{$:/core/ui/Buttons/save-wiki}} and reload {{$:/core/ui/Buttons/refresh}} to allow changes to ~JavaScript plugins to take effect
+MissingTiddler/Hint: Hiányzik a "<$text text=<<currentTiddler>>/>" tiddler -- kattintson a {{||$:/core/ui/Buttons/edit}} elemre a létrehozáshoz
+No: Nem
+OfficialPluginLibrary: Hivatalos ~TiddlyWiki bővítmény könyvtár
+OfficialPluginLibrary/Hint: A hivatalos ~TiddlyWiki bővítménykönyvtár a tiddlywiki.com webhelyen. A bővítményeket, témákat és nyelvi csomagokat a törzscsapat karbantartja.
+PageTemplate/Description: az alapértelmezett ~TiddlyWiki elrendezés
+PageTemplate/Name: Alapértelmezett ~PageTemplate
+PluginReloadWarning: Mentse el az {{$:/core/ui/Buttons/save-wiki}} elemet, és töltse be újra az {{$:/core/ui/Buttons/refresh}} elemet, hogy a ~JavaScript beépülő modulok módosításai életbe léphessenek
 RecentChanges/DateFormat: YYYY. MMM DD.
-Shortcuts/Input/AdvancedSearch/Hint: Open the ~AdvancedSearch panel from within the sidebar search field
+Shortcuts/Input/AdvancedSearch/Hint: Nyissa meg a ~AdvancedSearch panelt az oldalsáv keresőmezőjéből
 Shortcuts/Input/Accept/Hint: A kiválasztott elemek elfogadása
 Shortcuts/Input/AcceptVariant/Hint: A kiválasztott elemek elfogadása (variant)
 Shortcuts/Input/Cancel/Hint: Beviteli mező törlése
@@ -82,18 +82,18 @@ Shortcuts/Input/Tab-Left/Hint: Az előző Fül kiválassztása
 Shortcuts/Input/Tab-Right/Hint: A következő Fül kiválassztása
 Shortcuts/Input/Up/Hint: Az előző elem kiválasztása
 Shortcuts/SidebarLayout/Hint: Change the sidebar layout
-Switcher/Subtitle/theme: Switch Theme
-Switcher/Subtitle/layout: Switch Layout
-Switcher/Subtitle/language: Switch Language
-Switcher/Subtitle/palette: Switch Palette
+Switcher/Subtitle/theme: Téma váltása
+Switcher/Subtitle/layout: Elrendezés váltása
+Switcher/Subtitle/language: Nyelv váltása
+Switcher/Subtitle/palette: Paletta váltása
 SystemTiddler/Tooltip: Ez egy rendszer tiddler
 SystemTiddlers/Include/Prompt: Tartalmazza a rendszer tiddlereket
-TagManager/Colour/Heading: Colour
-TagManager/Count/Heading: Count
-TagManager/Icon/Heading: Icon
-TagManager/Icons/None: None
-TagManager/Info/Heading: Info
-TagManager/Tag/Heading: Tag
-Tiddler/DateFormat: YYYY. MMM DD. hh12:0mm
+TagManager/Colour/Heading: Szín
+TagManager/Count/Heading: Szám
+TagManager/Icon/Heading: Ikon
+TagManager/Icons/None: Nincs
+TagManager/Info/Heading: Infó
+TagManager/Tag/Heading: Címke
+Tiddler/DateFormat: YYYY. MMM DD. 0hh:0mm
 UnsavedChangesWarning: Nem mentett módosításai vannak a TiddlyWikiben
-Yes: Yes
+Yes: Igen

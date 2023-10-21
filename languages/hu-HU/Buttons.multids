@@ -59,8 +59,8 @@ Home/Caption: home
 Home/Hint: Megnyitja az alapértelmezett tiddlereket
 Language/Caption: nyelv
 Language/Hint: A felhasználói felület nyelvének kiválasztása
-LayoutSwitcher/Hint: Open layout switcher
-LayoutSwitcher/Caption: layout
+LayoutSwitcher/Hint: Megnyitja az elrendezésváltót
+LayoutSwitcher/Caption: elrendezés
 Manager/Caption: tiddler menedzser
 Manager/Hint: Megnyitja a tiddler menedzsert
 More/Caption: Többi

@@ -2,41 +2,41 @@ title: $:/language/ThemeTweaks/
 
 ThemeTweaks: Theme Tweaks
 ThemeTweaks/Hint: You can tweak certain aspects of the ''Vanilla'' theme.
-Options: Options
-Options/SidebarLayout: Sidebar layout
-Options/SidebarLayout/Fixed-Fluid: Fixed story, fluid sidebar
-Options/SidebarLayout/Fluid-Fixed: Fluid story, fixed sidebar
-Options/StickyTitles: Sticky titles
-Options/StickyTitles/Hint: Causes tiddler titles to "stick" to the top of the browser window
-Options/CodeWrapping: Wrap long lines in code blocks
-Settings: Settings
-Settings/FontFamily: Font family
-Settings/CodeFontFamily: Code font family
-Settings/EditorFontFamily: Editor font family
-Settings/BackgroundImage: Page background image
-Settings/BackgroundImageAttachment: Page background image attachment
-Settings/BackgroundImageAttachment/Scroll: Scroll with tiddlers
-Settings/BackgroundImageAttachment/Fixed: Fixed to window
-Settings/BackgroundImageSize: Page background image size
+Options: Opciók
+Options/SidebarLayout: Oldalsáv elrendezése
+Options/SidebarLayout/Fixed-Fluid: Rögzített/fixed sztori, gördülékeny/fluid oldalsáv
+Options/SidebarLayout/Fluid-Fixed: Gördülékeny/fluid sztori, rögzített/fixed oldalsáv
+Options/StickyTitles: Ragadós címek
+Options/StickyTitles/Hint: A tiddler címek a böngészőablak tetejére "ragadnak"
+Options/CodeWrapping: A hosszú sorokat csomagolja kódblokkokba
+Settings: Beállítások
+Settings/FontFamily: Betűcsalád
+Settings/CodeFontFamily: Kód betűtípuscsalád
+Settings/EditorFontFamily: Szerkesztő betűtípuscsalád
+Settings/BackgroundImage: Oldal háttérképe
+Settings/BackgroundImageAttachment: Oldal háttérkép melléklete
+Settings/BackgroundImageAttachment/Scroll: Görgetés tiddlerekkel
+Settings/BackgroundImageAttachment/Fixed: Rögzítés az ablakhoz
+Settings/BackgroundImageSize: Az oldal háttérképének mérete
 Settings/BackgroundImageSize/Auto: Auto
-Settings/BackgroundImageSize/Cover: Cover
-Settings/BackgroundImageSize/Contain: Contain
-Metrics: Sizes
-Metrics/FontSize: Font size
-Metrics/LineHeight: Line height
-Metrics/BodyFontSize: Font size for tiddler body
-Metrics/BodyLineHeight: Line height for tiddler body
-Metrics/StoryLeft: Story left position
-Metrics/StoryLeft/Hint: how far the left margin of the story river<br>(tiddler area) is from the left of the page
-Metrics/StoryTop: Story top position
-Metrics/StoryTop/Hint: how far the top margin of the story river<br>is from the top of the page
-Metrics/StoryRight: Story right
-Metrics/StoryRight/Hint: how far the left margin of the sidebar <br>is from the left of the page
-Metrics/StoryWidth: Story width
-Metrics/StoryWidth/Hint: the overall width of the story river
-Metrics/TiddlerWidth: Tiddler width
-Metrics/TiddlerWidth/Hint: within the story river
-Metrics/SidebarBreakpoint: Sidebar breakpoint
-Metrics/SidebarBreakpoint/Hint: the minimum page width at which the story<br>river and sidebar will appear side by side
-Metrics/SidebarWidth: Sidebar width
-Metrics/SidebarWidth/Hint: the width of the sidebar in fluid-fixed layout
+Settings/BackgroundImageSize/Cover: Borító
+Settings/BackgroundImageSize/Contain: Tartalmaz
+Metrics: Méretek
+Metrics/FontSize: Betűméret
+Metrics/LineHeight: Sormagasság
+Metrics/BodyFontSize: A tiddler törzsének betűmérete
+Metrics/BodyLineHeight: A tiddler törzsének sormagassága
+Metrics/StoryLeft: A sztori bal oldali pozíciója
+Metrics/StoryLeft/Hint: milyen messze van a sztorifolyam bal margója<br>(tiddler terület) az oldal bal oldalától
+Metrics/StoryTop: A sztori legfelső pozíciója
+Metrics/StoryTop/Hint: milyen messze van a sztorifolyam felső margója<br>az oldal tetejétől
+Metrics/StoryRight: Sztori jobb
+Metrics/StoryRight/Hint: milyen messze van az oldalsáv jobb margója <br>az oldal jobb oldalától
+Metrics/StoryWidth: Sztori szélessége
+Metrics/StoryWidth/Hint: A sztorifolyam teljes szélessége
+Metrics/TiddlerWidth: Tiddler szélessége
+Metrics/TiddlerWidth/Hint: a sztorifolyamon belül
+Metrics/SidebarBreakpoint: Oldalsáv töréspontja
+Metrics/SidebarBreakpoint/Hint: az a minimális oldalszélesség, amelynél a sztori<br>folyam és az oldalsáv egymás mellett jelenik meg
+Metrics/SidebarWidth: Oldalsáv szélessége
+Metrics/SidebarWidth/Hint: az oldalsáv szélessége fluid-fixed elrendezésben

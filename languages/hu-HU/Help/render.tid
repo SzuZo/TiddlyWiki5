@@ -29,7 +29,7 @@ Megjegyzések:
 * Többes ''name''/''value'' pár használható egynél több változó átadására
 * A `--render` parancs rugalmasabb helyettesíti mind a `--rendertiddler`, mind a `--rendertiddlers` parancsot, amelyek elavultak.
 
-Examples:
+Példák:
 
 * `--render '[!is[system]]' '[encodeuricomponent[]addprefix[tiddlers/]addsuffix[.html]]'` -- az összes nem-rendszer tiddlert fájlként rendereli a "tiddlers" alkönyvtárban az URL-címmel kódolt címekkel és a HTML kiterjesztéssel
 

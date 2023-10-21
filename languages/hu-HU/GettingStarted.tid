@@ -1,11 +1,11 @@
 title: GettingStarted
 
 \define lingo-base() $:/language/ControlPanel/Basics/
-Welcome to ~TiddlyWiki and the ~TiddlyWiki community
+Üdvözöljük a ~TiddlyWikiben és a ~TiddlyWiki közösségben
 
-Before you start storing important information in ~TiddlyWiki it is vital to make sure that you can reliably save changes. See https://tiddlywiki.com/#GettingStarted for details
+Mielőtt elkezdené a fontos információk tárolását a ~TiddlyWikiben, elengedhetetlen, hogy megbizonyosodjon arról, hogy a változtatásokat megbízhatóan mentheti. A részletekért lásd: https://tiddlywiki.com/#GettingStarted
 
-!! Set up this ~TiddlyWiki
+!! Állítsa be ezt a ~TiddlyWikit
 
 <div class="tc-control-panel">
 
@@ -15,4 +15,5 @@ Before you start storing important information in ~TiddlyWiki it is vital to mak
 |^ <$link to="$:/DefaultTiddlers"><<lingo DefaultTiddlers/Prompt>></$link><br><<lingo DefaultTiddlers/TopHint>>|<$edit tag="textarea" tiddler="$:/DefaultTiddlers"/><br>//<<lingo DefaultTiddlers/BottomHint>>// |
 </div>
 
-See the [[control panel|$:/ControlPanel]] for more options.
+További lehetőségekért lásd a [[vezérlőpult|$:/ControlPanel]] részt.
+

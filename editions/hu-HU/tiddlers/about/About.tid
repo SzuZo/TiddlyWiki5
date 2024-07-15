@@ -1,0 +1,10 @@
+caption: A TiddlyWiki-ről
+created: 20140912145139340
+modified: 20220130183814241
+tags: TableOfContents
+title: About
+type: text/vnd.tiddlywiki
+
+<div lang="hu-HU" title="Information about the making of TiddlyWiki:">Információk a TiddlyWiki készítéséről:</div>
+
+<<list-links "[tag[About]]">>

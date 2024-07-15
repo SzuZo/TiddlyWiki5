@@ -1,0 +1,26 @@
+caption: Feladat kezelő példa (áthelyezhető)
+created: 20180307153530187
+modified: 20220130213645412
+tags: Learning
+title: TaskManagementExample (Draggable)
+type: text/vnd.tiddlywiki
+
+<span lang="hu-HU" title="This is a version of the TaskManagementExample enhanced with the ability to drag and drop the task list to re-order them.">Ez a [[Feladat kezelő példa|TaskManagementExample]] egy olyan változata, amely a feladatlista áthúzásával átrendezhető.</span>
+
+! <span lang="hu-HU" title="Outstanding tasks">Elvégzendő feladatok</span>
+
+//<span lang="hu-HU" title="Drag the tasks to re-order them">Húzza át a feladatokat az átrendezésükhöz</span>//
+
+<<list-tagged-draggable tag:"task" subFilter:"!has[draft.of]!tag[done]" itemTemplate:"TaskManagementExampleDraggableTemplate" emptyMessage:"Nincs aktív feladat! / You don't have any active tasks">>
+
+! <span lang="hu-HU" title="Completed tasks">Befejezett feladatok</span>
+
+//<span lang="hu-HU" title="(Listed in reverse order of completion)">(felsorolás a kitöltés fordított sorrendjében)</span>//
+
+<$list filter="[!has[draft.of]tag[task]tag[done]sort[created]]">
+<div>
+<$checkbox tag="done"> ~~<$link/>~~</$checkbox>
+</div>
+</$list>
+
+

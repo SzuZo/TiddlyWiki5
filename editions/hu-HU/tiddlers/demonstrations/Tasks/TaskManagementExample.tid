@@ -1,0 +1,28 @@
+caption: Feladat kezelő példa
+created: 20130825213300000
+modified: 20220130213522880
+tags: Learning
+title: TaskManagementExample
+type: text/vnd.tiddlywiki
+
+<span lang="hu-HU" title="TiddlyWiki5 can be used as a simple task management system without further customisation.">A TiddlyWiki5 egyszerű feladatkezelő rendszerként használható további testreszabás nélkül.</span> <span lang="hu-HU" title="The idea is that tasks be tagged `task`, with those that are completed also tagged `done`.">Az ötlet az, hogy a feladatokat `feladat` címkével látják el, és a befejezetteket is megcímkézi `kész`-el.</span> <span lang="hu-HU" title="In this way it is straightforward to generate task lists.">Ily módon egyszerű feladatlisták létrehozása.</span>
+
+<div lang="hu-HU" title="There is [[an enhanced version of this demo|TaskManagementExample (Draggable)]] that adds the ability to drag and drop the tasks to re-order them.">
+<<.tip """Van [[ennek a demónak továbbfejlesztett változata|TaskManagementExample (Draggable)]], amely lehetőséget ad a feladatok áthúzására és átrendezésére.""">>
+</div>
+
+! <span lang="hu-HU" title="Outstanding tasks">Elvégzendő feladatok</span>
+
+<$list filter="[!has[draft.of]tag[task]!tag[done]sort[created]]">
+
+<$checkbox tag="done"> <$link/></$checkbox>
+
+</$list>
+
+! <span lang="hu-HU" title="Completed tasks">Befejezett feladatok</span>
+
+<$list filter="[!has[draft.of]tag[task]tag[done]sort[created]]">
+
+<$checkbox tag="done"> ~~<$link/>~~</$checkbox>
+
+</$list>

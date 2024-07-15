@@ -1,0 +1,41 @@
+created: 20131219100520659
+modified: 20220130231048365
+tags: [[TiddlyWiki on Node.js]]
+title: Using TiddlyWiki on Node.js
+type: text/vnd.tiddlywiki
+
+<span lang="hu-HU" title="TiddlyWiki5 includes a set of [[Commands]] for use on the command line to perform an extensive set of operations based on TiddlyWikiFolders, TiddlerFiles and TiddlyWikiFiles.">A TiddlyWiki5 tartalmaz egy [[Parancsok|Commands]] készletet, amelyek a parancssorban használhatók a TiddlyWikiFolders, TiddlerFiles és TiddlyWikiFiles alapú műveletek kiterjedt készletének végrehajtására.</span>
+
+<span lang="hu-HU" title="For example, the following command loads the tiddlers from a TiddlyWiki HTML file and then saves one of them in static HTML:">Például a következő parancs betölti a tiddlereket egy TiddlyWiki HTML-fájlból, majd elmenti az egyiket statikus HTML-be:</span>
+
+```
+tiddlywiki --verbose --load mywiki.html --rendertiddler ReadMe ./readme.html
+```
+
+<span lang="hu-HU" title="Running `tiddlywiki` from the command line boots the TiddlyWiki kernel, loads the core plugins and establishes an empty wiki store.">A `tiddlywiki` parancssorból történő futtatása elindítja a TiddlyWiki kernelt, betölti az alapvető beépülő modulokat, és létrehoz egy üres wikitárolót.</span> <span lang="hu-HU" title="It then sequentially processes the command line arguments from left to right.">Ezután szekvenciálisan dolgozza fel a parancssori argumentumokat balról jobbra.</span> <span lang="hu-HU" title="The arguments are separated with spaces.">Az argumentumok szóközzel vannak elválasztva.</span>
+
+<<.from-version "5.1.20">> <span lang="hu-HU" title="First, there can be zero or more plugin references identified by the prefix `+` for plugin names or `++` for a path to a plugin folder.">Először is, nulla vagy több beépülő modul-hivatkozás lehet, amelyet a `+` előtag azonosít a beépülő modulok neveinél, vagy a `++` a beépülő modulok mappáinak elérési útja.</span> <span lang="hu-HU" title="These plugins are loaded in addition to any specified in the [[TiddlyWikiFolder|TiddlyWikiFolders]]">Ezek a beépülő modulok a [[TiddlyWikiFolder|TiddlyWikiFolders]]-ban megadottak mellett töltődnek be.</span>.
+
+<span lang="hu-HU" title="The next argument is the optional path to the [[TiddlyWikiFolder|TiddlyWikiFolders]] to be loaded.">A következő argumentum a betöltendő [[TiddlyWikiFolder|TiddlyWikiFolders]] opcionális elérési útja.</span> <span lang="hu-HU" title="If not present, then the current directory is used.">Ha nincs jelen, akkor az aktuális könyvtár kerül felhasználásra.</span>
+
+<span lang="hu-HU" title="The commands and their individual arguments follow, each command being identified by the prefix `--`.">A parancsok és egyedi argumentumaik következnek, mindegyik parancsot a `--` előtag azonosítja.</span>
+
+```
+tiddlywiki [+<pluginname> | ++<pluginpath>] [<wikipath>] [--<command> [<arg>[,<arg>]]]
+```
+
+<span lang="hu-HU" title="For example:">Például:</span>
+
+```
+tiddlywiki --version
+tiddlywiki +plugins/tiddlywiki/filesystem +plugins/tiddlywiki/tiddlyweb mywiki --listen
+tiddlywiki ++./mygreatplugin mywiki --listen
+```
+
+<<.from-version "5.1.18">> <span lang="hu-HU" title="Commands such as the ListenCommand that support large numbers of parameters can use NamedCommandParameters to make things less unwieldy. For example:">Az olyan parancsok, mint például a ListenCommand, amelyek nagyszámú paramétert támogatnak, a NamedCommandParameters segítségével kevésbé nehézkessé teszik a dolgokat. Például:</span>
+
+```
+tiddlywiki wikipath --listen username=jeremy port=8090
+```
+
+<span lang="hu-HU" title="See [[Commands]] for a full listing of the available commands.">Az elérhető parancsok teljes listáját a [[Parancsok|Commands]] részben találja.</span>

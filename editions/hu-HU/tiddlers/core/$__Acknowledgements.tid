@@ -1,0 +1,15 @@
+created: 20160511152639376
+modified: 20160511152744722
+title: $:/Acknowledgements
+type: text/vnd.tiddlywiki
+
+<div lang="hu-HU" title="TiddlyWiki incorporates code from these fine OpenSource projects:">A TiddlyWiki ezekből a remek nyílt forráskódú projektekből származó kódot tartalmaz:</div>
+
+* [[The Stanford Javascript Crypto Library|http://bitwiseshiftleft.github.io/sjcl/]]
+* [[The Jasmine JavaScript Test Framework|http://pivotal.github.io/jasmine/]]
+* [[Normalize.css by Nicolas Gallagher|http://necolas.github.io/normalize.css/]]
+
+<div lang="hu-HU" title="And media from these projects:">És ezekből a projektekből a média:</div>
+
+* <div lang="hu-HU" title="World flag icons from">Világ zászló ikonjai innen </div> [[Wikipedia|http://commons.wikimedia.org/wiki/Category:SVG_flags_by_country]]
+
